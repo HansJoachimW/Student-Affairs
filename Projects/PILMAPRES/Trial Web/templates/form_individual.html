@@ -6,13 +6,13 @@
     <title>Competition Entry Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="/static/script.js"></script> <!-- Link to your JS file -->
+    <script src="/static/form_individual.js"></script> <!-- Link to your JS file -->
 </head>
 <body>
 
 <div class="container mt-5">
     <h1>Select a Grading Rubric</h1>
-    <form id="rubricForm" onsubmit="return false;">
+    <form id="rubricForm">
         <div class="form-group">
             <label for="rubric">Choose a rubric:</label>
             <select id="rubric" name="rubric" class="form-control" required>
@@ -22,7 +22,8 @@
                 <!-- Add more options as needed -->
             </select>
         </div>
-        <button type="button" class="btn btn-primary" onclick="loadRubric()">Load Rubric</button>
+        <button type="button" class="btn btn-primary" id="loadRubric">Load Rubric</button>
+        <span id="rubricStatus" class="ml-3"></span> <!-- Placeholder for status text -->
     </form>
 
     <h1 class="mt-5">Competition Entry Form</h1>
@@ -96,6 +97,7 @@
             <div class="col-md-6">
                 <label for="participant_as">Participant As:</label>
                 <select id="participant_as" name="participant_as" class="form-control" required>
+                    <option value="">Select a Team</option>
                     <option value="Individual">Individual</option>
                     <option value="Team">Team</option>
                 </select>
