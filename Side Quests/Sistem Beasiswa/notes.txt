@@ -1,0 +1,27 @@
+system pengaturan excel decent untuk evaluasi beasiswa untuk mahasiswa beasiswa 4 tahun
+
+ada milestone (like KP etc) -> Yes/No with another column for activity name
+
+progress bar (?) for the whole thing and another per semester
+
+2 types of anak beasiswa (one looking for KP kompetisi and another using jam magang)
+
+------------------
+
+beasiswa -> 2 kewajiban (IPS and lain")
+
+gasal evaluasi IPS
+
+genap evaluasi IPS dan kewajiban lain 
+
+magang can roll over 
+
+1 column untuk make sure datang ke evaluasi atau ngga
+
+click name and all relevant information will appear (vlookup and hyperlink)
+
+sementara ada database tapi kurang rapi
+
+di database rn, magang system centang per semester
+
+magang harus ada progress bar (data scales?)

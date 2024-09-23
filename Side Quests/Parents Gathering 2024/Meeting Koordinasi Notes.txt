@@ -1,0 +1,12 @@
+Parents Gathering
+
+OTS
+
+Login to website
+Search for full name in "Belum Check In" pagew
+Click checkin btn
+Verify data (if more than 2, just click 2)
+If data disappears, then checkin counter increase by 1 and the name disappears
+If name doesn't exist, go to sidebar and go to tambah baru under input baru
+Enter data correctly
+If everything done, log out

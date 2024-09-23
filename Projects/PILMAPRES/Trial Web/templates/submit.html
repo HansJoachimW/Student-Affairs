@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competition Entry Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/static/script.js"></script> <!-- Link to your JS file -->
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1>Select a Grading Rubric</h1>
+    <form id="rubricForm" onsubmit="return false;">
+        <div class="form-group">
+            <label for="rubric">Choose a rubric:</label>
+            <select id="rubric" name="rubric" class="form-control" required>
+                <option value="">Select a Rubric</option>
+                <option value="PILMAPRES">PILMAPRES</option>
+                <option value="SIMKATMAWA">SIMKATMAWA</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="loadRubric()">Load Rubric</button>
+    </form>
+
+    <h1 class="mt-5">Competition Entry Form</h1>
+    <form action="/submit" method="POST">
+        <div class="form-group">
+            <label for="nis">NIS:</label>
+            <input type="text" id="nis" name="nis" class="form-control" required>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-6">
+                <label for="major">Major:</label>
+                <select id="major" name="major" class="form-control" required>
+                    <option value="">Select a Major</option>
+                    <option value="ACC">ACC</option>
+                    <option value="ARS">ARS</option>
+                    <option value="BMI">BMI</option>
+                    <option value="CBZ">CBZ</option>
+                    <option value="COM">COM</option>
+                    <option value="FPD">FPD</option>
+                    <option value="FTP">FTP</option>
+                    <option value="HTB">HTB</option>
+                    <option value="IBM">IBM</option>
+                    <option value="IMT">IMT</option>
+                    <option value="ISB">ISB</option>
+                    <option value="MED">MED</option>
+                    <option value="PSY">PSY</option>
+                    <option value="VCD">VCD</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="student_year">Student Year:</label>
+                <input type="text" id="student_year" name="student_year" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-6">
+                <label for="start_date">Start Date:</label>
+                <input type="date" id="start_date" name="start_date" class="form-control" required>
+            </div>
+            <div class="col-md-6">
+                <label for="end_date">End Date:</label>
+                <input type="date" id="end_date" name="end_date" class="form-control" required>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="period">Period:</label>
+            <input type="text" id="period" name="period" class="form-control" required>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-md-6">
+                <label for="status">Status (Placement):</label>
+                <select id="status" name="status" class="form-control" required>
+                    <option value="">Select a Status</option>
+                    <!-- Options will be populated based on selected rubric -->
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="level">Level:</label>
+                <select id="level" name="level" class="form-control" required>
+                    <option value="">Select a Level</option>
+                    <!-- Options will be populated based on selected rubric -->
+                </select>
+            </div>
+        </div>        
+
+        <div class="form-group row">
+            <div class="col-md-6">
+                <label for="participant_as">Participant As:</label>
+                <select id="participant_as" name="participant_as" class="form-control" required>
+                    <option value="Individual">Individual</option>
+                    <option value="Team">Team</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="total_participant">Total Participant:</label>
+                <input type="number" id="total_participant" name="total_participant" class="form-control" required>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
