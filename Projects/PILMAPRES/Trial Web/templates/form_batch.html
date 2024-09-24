@@ -10,6 +10,18 @@
 </head>
 <body>
 
+    <div id="sidebar">
+        <div class="sidebar-item">
+            <a href="{{ url_for('') }}">Home</a>
+        </div>
+        <div class="sidebar-item">
+            <a href="{{ url_for('individual_form') }}">Individual Submission</a>
+        </div>
+        <div class="sidebar-item">
+            <a href="{{ url_for('file_upload') }}">Batch Submission</a>
+        </div>
+    </div>
+
     <form action="/submit" method="POST" enctype="multipart/form-data">
         <!-- Existing input fields -->
         <input type="file" name="file" accept=".csv" required>

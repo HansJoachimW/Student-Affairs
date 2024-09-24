@@ -20,6 +20,15 @@ rubrics = {
 def index():
     return render_template('index.html')
 
+@app.route('/individual-form')
+def individual_form():
+    return render_template('form_individual.html')  # Update as necessary
+
+@app.route('/file-upload')
+def file_upload():
+    return render_template('form_batch.html')  # File upload page template
+
+
 @app.route('/grading', methods=['GET', 'POST'])
 def grading():
     if request.method == 'POST':
@@ -89,7 +98,7 @@ def upload():
             participant_as = row['Participant As']
             
             criteria = f"{status}|{level}|{participant_as}"
-            score_row = rubric_data[rubric_data['Criteria'] == criteria]
+            score_row = rubrics[rubrics['Criteria'] == criteria]
             score = score_row['Score'].values[0] if not score_row.empty else 0
             
             results.append({
