@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to the Quiz</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body class="bg-light">
-    <div class="container mt-5">
-        <div class="card text-center shadow-sm">
-            <div class="card-body">
-                <h1 class="card-title">Welcome to the Quiz!</h1>
-                <p class="card-text">This quiz consists of 20 questions that will help us understand your preferences.</p>
-                <a href="{{ url_for('show_questions', page=1) }}" class="btn btn-primary btn-lg">Start Quiz</a>
+{% extends "base.html" %}
+
+{% block title %}Welcome to the Quiz{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h1 class="card-title">Welcome to the Quiz!</h1>
+                    <p class="card-text">This quiz consists of 20 psychological questions that will help us understand your preferences.</p>
+                    <a href="{{ url_for('show_questions', page=1) }}" class="btn btn-primary btn-lg">Start Quiz</a>
+                </div>
             </div>
         </div>
     </div>
-</body>
-</html>
+</div>
+{% endblock %}
