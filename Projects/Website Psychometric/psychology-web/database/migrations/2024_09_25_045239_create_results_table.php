@@ -15,7 +15,6 @@ return new class extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->unsignedBigInteger('quiz_id'); // Make sure this is unsignedBigInteger
-            $table->foreign('quiz_id')->references('id')->on('quizzes')->onDelete('cascade');
             $table->string('result');
             $table->timestamps();
         });

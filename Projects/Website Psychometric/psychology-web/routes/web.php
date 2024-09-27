@@ -30,5 +30,5 @@ Route::get('/admin', [AdminController::class, 'index'])->name('admin')->middlewa
 
 // Quiz routes
 Route::get('/questions', [QuizController::class, 'showQuestions'])->name('questions');
-Route::post('/questions', [QuizController::class, 'submitAnswers']);
+Route::post('/questions/submit', [QuizController::class, 'submitAnswers'])->name('questions.submit');
 Route::get('/result', [QuizController::class, 'showResult'])->name('result');
