@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    height: 100vh; /* Make body full height */
+    overflow: hidden; /* Prevent overflow */
+}
+
+#wrapper {
+    display: flex;
+    width: 100%; /* Make wrapper full width */
+}
+
+#sidebar-wrapper {
+    min-width: 250px; /* Set minimum width for sidebar */
+    background-color: #343a40; /* Sidebar background color */
+    transition: all 0.3s; /* Smooth transition for responsiveness */
+}
+
+.sidebar-heading {
+    padding: 1rem 1.25rem; /* Add padding for better alignment */
+    font-size: 1.5rem; /* Adjust font size if needed */
+    color: white; /* Ensure text is visible */
+    text-align: center; /* Center align the heading */
+}
+
+.list-group-item {
+    display: flex; /* Enable flexbox for list items */
+    align-items: center; /* Center the icon and text vertically */
+}
+
+.list-group-item i {
+    margin-right: 15px; /* Increased space between icon and text */
+}
+
+#page-content-wrapper {
+    flex-grow: 1; /* Allow content area to grow and fill space */
+    overflow-y: auto; /* Enable scrolling for content */
+    background-color: #f8f9fa; /* Light background for content area */
+}
+
+.content-container {
+    padding: 2rem; /* Add padding to the content area */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #sidebar-wrapper {
+        min-width: 200px; /* Adjust min width for smaller screens */
+    }
+
+    .sidebar-heading {
+        font-size: 1.25rem; /* Smaller heading on mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    #sidebar-wrapper {
+        display: none; /* Hide sidebar on very small screens */
+    }
+
+    #wrapper {
+        flex-direction: column; /* Stack content on smaller screens */
+    }
+}
+
+/* Optional: Add a toggle button for mobile sidebar */
+.sidebar-toggle {
+    display: none; /* Hide by default */
+}
+
+@media (max-width: 576px) {
+    .sidebar-toggle {
+        display: block; /* Show toggle button on mobile */
+        position: absolute; /* Position it for easy access */
+        top: 15px; /* Adjust positioning */
+        left: 15px; /* Adjust positioning */
+        z-index: 1000; /* Ensure it is above other elements */
+        background-color: #343a40; /* Match sidebar color */
+        color: white; /* Ensure text is visible */
+        border: none; /* Remove border */
+        padding: 10px; /* Add padding */
+        border-radius: 5px; /* Rounded corners */
+    }
+}
