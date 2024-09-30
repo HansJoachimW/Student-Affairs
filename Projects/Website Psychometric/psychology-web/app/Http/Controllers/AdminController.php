@@ -9,7 +9,6 @@ class AdminController extends Controller
 {
     public function index()
     {
-        $results = Result::all();
-        return view('admin', compact('results'));
+        return view('admin');
     }
 }

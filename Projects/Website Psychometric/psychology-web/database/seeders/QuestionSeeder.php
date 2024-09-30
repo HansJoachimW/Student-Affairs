@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Question;
+use App\Models\Quiz;
 
 class QuestionSeeder extends Seeder
 {
@@ -13,6 +14,8 @@ class QuestionSeeder extends Seeder
      */
     public function run(): void
     {
+        Quiz::factory()->count(2)->create();
+
         Question::factory()->count(20)->create();
     }
 }

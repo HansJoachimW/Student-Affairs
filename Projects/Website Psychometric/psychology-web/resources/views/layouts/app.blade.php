@@ -28,13 +28,13 @@
                     class="list-group-item list-group-item-action bg-dark text-white d-flex align-items-center">
                     <i class="fas fa-home me-3"></i> Home
                 </a>
-                @if (session('role') == 'admin')
+                @if (auth()->check() && auth()->user()->role == 'admin')
                     <a href="{{ url('/admin') }}"
                         class="list-group-item list-group-item-action bg-dark text-white d-flex align-items-center">
                         <i class="fas fa-user-shield me-3"></i> Admin
                     </a>
                 @endif
-                <a href="{{ url('/questions') }}"
+                <a href="{{ url('/quizzes.index') }}"
                     class="list-group-item list-group-item-action bg-dark text-white d-flex align-items-center">
                     <i class="fas fa-pencil-alt me-3"></i> Take Quiz
                 </a>
@@ -49,10 +49,10 @@
                 @if (session('logged_in'))
                     <div class="d-flex justify-content-center align-items-center">
                         <a href="{{ url('/profile') }}" class="text-white me-3">
-                            <i class="fas fa-user-circle me-1"></i>Profile
+                            <i class="fas fa-user-circle me-1"></i> Profile
                         </a>
                         <a href="{{ url('/logout') }}" class="text-white">
-                            <i class="fas fa-sign-out-alt me-1"></i>Logout
+                            <i class="fas fa-sign-out-alt me-1"></i> Logout
                         </a>
                     </div>
                 @else
@@ -61,6 +61,7 @@
                     <a href="{{ url('/signup') }}" class="text-white ms-2">Signup</a>
                 @endif
             </div>
+
 
         </div>
 

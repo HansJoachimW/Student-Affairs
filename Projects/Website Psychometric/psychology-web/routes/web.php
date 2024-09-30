@@ -26,9 +26,13 @@ Route::post('/signup', [AuthController::class, 'signup']);
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
 
 // Admin routes
-Route::get('/admin', [AdminController::class, 'index'])->name('admin')->middleware('admin');
+Route::middleware(['auth', 'admin'])->group(function () {
+    Route::get('/admin', [AdminController::class, 'index'])->name('admin');
+});
 
 // Quiz routes
-Route::get('/questions', [QuizController::class, 'showQuestions'])->name('questions');
+Route::get('/quizzes', [QuizController::class, 'index'])->name('quizzes.index');
+Route::get('/quizzes/{id}', [QuizController::class, 'showQuestions'])->name('quizzes.showQuestions');
+// Route::get('/questions', [QuizController::class, 'showQuestions'])->name('questions');
 Route::post('/questions/submit', [QuizController::class, 'submitAnswers'])->name('questions.submit');
 Route::get('/result', [QuizController::class, 'showResult'])->name('result');

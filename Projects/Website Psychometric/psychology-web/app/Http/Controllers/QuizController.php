@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Question;
-use App\Models\Result;
+use App\Models\Quiz;
 use Illuminate\Support\Facades\Auth;
 
 class QuizController extends Controller
@@ -13,25 +13,14 @@ class QuizController extends Controller
 
     public function index()
     {
-        return view('index');
+        $quizzes = Quiz::all(); // Fetch all quizzes
+        return view('quizzes', compact('quizzes'));
     }
 
-    public function showQuestions(Request $request)
+    public function showQuestions($id)
     {
-        $page = $request->query('page', 1);
-        $questions = Question::where('quiz_id', 1)
-            ->skip(($page - 1) * self::QUESTIONS_PER_PAGE)
-            ->take(self::QUESTIONS_PER_PAGE)
-            ->get();
-
-        $totalQuestions = Question::where('quiz_id', 1)->count();
-        $totalPages = ceil($totalQuestions / self::QUESTIONS_PER_PAGE);
-
-        return view('questions', [
-            'questions' => $questions,
-            'page' => $page,
-            'total_pages' => $totalPages
-        ]);
+        $quiz = Quiz::with('questions')->findOrFail($id); // Assuming 'questions' is the relationship
+        return view('questions', compact('quiz'));
     }
 
     public function submitAnswers(Request $request)

@@ -19,6 +19,7 @@ class AuthController extends Controller
         $credentials = $request->only('username', 'password');
 
         if (Auth::attempt($credentials)) {
+            session(['logged_in' => true]);
             return redirect()->intended('/');
         }
 
@@ -51,6 +52,7 @@ class AuthController extends Controller
     public function logout()
     {
         Auth::logout();
+        session(['logged_in' => false]);
         return redirect()->route('login')->with('info', 'You have been logged out.');
     }
 }
