@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\QuizController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [QuizController::class, 'index'])->name('index');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+
 
 // Authentication routes
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
@@ -33,6 +35,5 @@ Route::middleware(['auth', 'admin'])->group(function () {
 // Quiz routes
 Route::get('/quizzes', [QuizController::class, 'index'])->name('quizzes.index');
 Route::get('/quizzes/{id}', [QuizController::class, 'showQuestions'])->name('quizzes.showQuestions');
-// Route::get('/questions', [QuizController::class, 'showQuestions'])->name('questions');
 Route::post('/questions/submit', [QuizController::class, 'submitAnswers'])->name('questions.submit');
 Route::get('/result', [QuizController::class, 'showResult'])->name('result');

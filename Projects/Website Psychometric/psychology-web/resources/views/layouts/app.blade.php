@@ -24,26 +24,25 @@
                 Quiz App
             </div>
             <div class="list-group list-group-flush flex-grow-1">
-                <a href="{{ url('/') }}"
+                <a href="{{ route('home') }}"
                     class="list-group-item list-group-item-action bg-dark text-white d-flex align-items-center">
                     <i class="fas fa-home me-3"></i> Home
                 </a>
                 @if (auth()->check() && auth()->user()->role == 'admin')
-                    <a href="{{ url('/admin') }}"
+                    <a href="{{ route('admin') }}"
                         class="list-group-item list-group-item-action bg-dark text-white d-flex align-items-center">
                         <i class="fas fa-user-shield me-3"></i> Admin
                     </a>
                 @endif
-                <a href="{{ url('/quizzes.index') }}"
+                <a href="{{ route('quizzes.index') }}"
                     class="list-group-item list-group-item-action bg-dark text-white d-flex align-items-center">
                     <i class="fas fa-pencil-alt me-3"></i> Take Quiz
                 </a>
-                <a href="{{ url('/result') }}"
+                <a href="{{ route('result') }}"
                     class="list-group-item list-group-item-action bg-dark text-white d-flex align-items-center">
                     <i class="fas fa-chart-line me-3"></i> Results
                 </a>
             </div>
-
 
             <div class="mt-auto p-3 text-center border-top">
                 @if (session('logged_in'))
@@ -51,18 +50,16 @@
                         <a href="{{ url('/profile') }}" class="text-white me-3">
                             <i class="fas fa-user-circle me-1"></i> Profile
                         </a>
-                        <a href="{{ url('/logout') }}" class="text-white">
+                        <a href="{{ route('logout') }}" class="text-white">
                             <i class="fas fa-sign-out-alt me-1"></i> Logout
                         </a>
                     </div>
                 @else
-                    <a href="{{ url('/login') }}" class="text-white me-2">Login</a>
+                    <a href="{{ route('login') }}" class="text-white me-2">Login</a>
                     <span class="text-white">|</span>
-                    <a href="{{ url('/signup') }}" class="text-white ms-2">Signup</a>
+                    <a href="{{ route('signup') }}" class="text-white ms-2">Signup</a>
                 @endif
             </div>
-
-
         </div>
 
         <!-- Page Content -->

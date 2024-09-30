@@ -10,7 +10,8 @@
                 <div class="card-body text-center">
                     <h1 class="card-title">Welcome to the Quiz!</h1>
                     <p class="card-text">This quiz consists of 20 psychological questions that will help us understand your preferences.</p>
-                    <a href="{{ route('questions', ['page' => 1]) }}" class="btn btn-primary btn-lg">Start Quiz</a>
+                    <!-- Update the route to correctly direct to the quiz questions -->
+                    <a href="{{ route('quizzes.index') }}" class="btn btn-primary btn-lg">Start Quiz</a>
                 </div>
             </div>
         </div>

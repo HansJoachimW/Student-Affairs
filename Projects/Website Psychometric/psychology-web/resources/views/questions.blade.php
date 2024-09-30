@@ -1,24 +1,60 @@
 @extends('layouts.app')
 
+@section('title', 'Questions')
+
 @section('content')
-    <div class="container">
-        <h1>{{ $quiz->title }}</h1>
-        <p>{{ $quiz->description }}</p>
-
-        <h3>Questions</h3>
-        <ul>
-            @foreach ($quiz->questions as $question)
-                <li>{{ $question->text }}</li>
-            @endforeach
-        </ul>
-
-        @if (auth()->check())
-            <a href="{{ route('quizzes.start', $quiz->id) }}" class="btn btn-primary">Start Quiz</a>
-        @else
-            <div class="alert alert-warning mt-3">
-                <strong>Note:</strong> You need to be logged in to start the quiz.
+    @if (auth()->check())
+        <!-- Check if user is logged in using Laravel's auth helper -->
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <h2 class="text-center">Page {{ $page }} of {{ $totalPages }}</h2>
+                <form method="POST" action="{{ route('questions.submit') }}">
+                    @csrf
+                    @foreach ($questions as $idx => $question)
+                        <div class="mb-4">
+                            <p><strong>{{ $question['question_text'] }}</strong></p>
+                                <input type="hidden" name="quiz" value="{{ $quiz }}">
+                                <input type="hidden" name="page" value="{{ $page }}">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ $idx }}"
+                                    value="Strongly Disagree" required>
+                                <label class="form-check-label">Strongly Disagree</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ $idx }}"
+                                    value="Disagree">
+                                <label class="form-check-label">Disagree</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ $idx }}"
+                                    value="Neutral">
+                                <label class="form-check-label">Neutral</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ $idx }}"
+                                    value="Agree">
+                                <label class="form-check-label">Agree</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question_{{ $idx }}"
+                                    value="Strongly Agree">
+                                <label class="form-check-label">Strongly Agree</label>
+                            </div>
+                        </div>
+                    @endforeach
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success btn-lg">Next</button>
+                    </div>
+                </form>
             </div>
-            <a href="{{ route('login') }}" class="btn btn-secondary">Login to Start Quiz</a>
-        @endif
-    </div>
+        </div>
+    @else
+        <div class="card text-center shadow-sm mt-5">
+            <div class="card-body">
+                <h1 class="display-5 text-danger">Please login first</h1>
+                <p class="lead">You need to be logged in to see the quiz questions.</p>
+                <a href="{{ url('/login') }}" class="btn btn-primary btn-lg">Login</a>
+            </div>
+        </div>
+    @endif
 @endsection
