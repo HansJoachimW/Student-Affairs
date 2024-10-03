@@ -14,8 +14,31 @@ class QuestionSeeder extends Seeder
      */
     public function run(): void
     {
-        Quiz::factory()->count(2)->create();
+        // Define the quizzes
+        $quizzes = [
+            ['title' => 'Quiz 1', 'description' => 'Pretest'],
+            ['title' => 'Quiz 2', 'description' => 'Posttest']
+        ];
 
-        Question::factory()->count(20)->create();
+        // Create the quizzes and their associated questions
+        foreach ($quizzes as $quizData) {
+            // Create the quiz and store the returned Quiz object
+            $quiz = Quiz::create($quizData);
+
+            // Define the questions
+            $questions = [
+                ['question_text' => 'Dalam 30 hari terakhir, seberapa sering Anda mengalami gelisah?'],
+                ['question_text' => 'Dalam 30 hari terakhir, seberapa sering Anda mengalami putus asa?'],
+                ['question_text' => 'Dalam 30 hari terakhir, seberapa sering Anda mengalami pikiran yang kacau?'],
+                ['question_text' => 'Dalam 30 hari terakhir, seberapa sering Anda merasa mudah marah?'],
+                ['question_text' => 'Dalam 30 hari terakhir, sebarapa sering Anda mengalami pikiran kosong?'],
+                ['question_text' => 'Dalam 30 hari terakhir, seberapa sering Anda merasa diri tidak berdaya?'],
+            ];
+
+            // Create the questions and associate them with the quiz
+            foreach ($questions as $questionData) {
+                $quiz->questions()->create($questionData); // Use $quiz instead of $pretest
+            }
+        }
     }
 }

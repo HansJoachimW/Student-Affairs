@@ -33,12 +33,68 @@ body {
 
 #page-content-wrapper {
     flex-grow: 1; /* Allow content area to grow and fill space */
-    overflow-y: auto; /* Enable scrolling for content */
     background-color: #f8f9fa; /* Light background for content area */
 }
 
 .content-container {
     padding: 2rem; /* Add padding to the content area */
+}
+
+.card {
+    transition: transform 0.2s; /* Add a hover effect */
+}
+
+.card:hover {
+    transform: scale(1.02); /* Slightly enlarge the card on hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Bootstrap primary color */
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Bootstrap secondary color */
+    border-color: #6c757d;
+}
+
+/* Set a fixed width for the sidebar */
+.fixed-sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    position: fixed; /* Keep the sidebar fixed */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    bottom: 0; /* Extend to the bottom */
+    z-index: 1000; /* Ensure it is on top of other content */
+    height: 100vh; /* Full viewport height */
+    overflow-y: hidden; /* Prevent scrolling in the sidebar */
+}
+
+/* Adjust page content to leave space for the sidebar */
+#page-content-wrapper {
+    margin-left: 250px; /* Match the sidebar width */
+    height: 100vh; /* Full height for content area */
+    overflow-y: auto; /* Enable scrolling in the content area */
+}
+
+/* Style the links in the sidebar */
+.fixed-sidebar .list-group-item {
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Adjust for mobile view */
+@media (max-width: 768px) {
+    #page-content-wrapper {
+        margin-left: 0; /* Sidebar collapses on mobile */
+        height: auto; /* Reset height for mobile */
+    }
+
+    .fixed-sidebar {
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Reset height for mobile */
+        position: relative; /* Relative positioning on mobile */
+    }
 }
 
 /* Responsive Styles */
