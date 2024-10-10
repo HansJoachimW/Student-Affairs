@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\EntryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,7 +14,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome');
+// Landing Page
+Route::get('/', function () {
+    return view('welcome');
+})->name('landing');
+
+// User Authentication Page
+Route::get('/login', function () {
+    return view('livewire.pages.auth.login');
+})->name('login');
+
+Route::get('/register', function () {
+    return view('livewire.pages.auth.register');
+})->name('register');
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
@@ -23,4 +36,10 @@ Route::view('profile', 'profile')
     ->middleware(['auth'])
     ->name('profile');
 
-require __DIR__.'/auth.php';
+// Form Submission
+Route::middleware(['auth'])->group(function () {
+    Route::get('/form', [EntryController::class, 'create'])->name('form');
+    Route::post('/form', [EntryController::class, 'store'])->name('form.submit');
+});
+
+require __DIR__ . '/auth.php';
