@@ -12,6 +12,7 @@ use Livewire\Volt\Component;
 new #[Layout('layouts.guest')] class extends Component
 {
     public string $name = '';
+    public string $nis = '';
     public string $email = '';
     public string $password = '';
     public string $password_confirmation = '';
@@ -23,6 +24,7 @@ new #[Layout('layouts.guest')] class extends Component
     {
         $validated = $this->validate([
             'name' => ['required', 'string', 'max:255'],
+            'nis' => ['required', 'string'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'string', 'confirmed', Rules\Password::defaults()],
         ]);
@@ -44,6 +46,13 @@ new #[Layout('layouts.guest')] class extends Component
             <x-input-label for="name" :value="__('Name')" />
             <x-text-input wire:model="name" id="name" class="block mt-1 w-full" type="text" name="name" required autofocus autocomplete="name" />
             <x-input-error :messages="$errors->get('name')" class="mt-2" />
+        </div>
+
+        <!-- NIS -->
+        <div class="mt-4">
+            <x-input-label for="nis" :value="__('NIS')" />
+            <x-text-input wire:model="nis" id="nis" class="block mt-1 w-full" type="text" name="nis" required autofocus autocomplete="nis" />
+            <x-input-error :messages="$errors->get('nis')" class="mt-2" />
         </div>
 
         <!-- Email Address -->

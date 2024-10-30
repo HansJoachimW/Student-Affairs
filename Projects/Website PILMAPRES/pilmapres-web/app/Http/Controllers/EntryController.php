@@ -63,7 +63,7 @@ class EntryController extends Controller
             'Internal '
         ];
 
-        return view('form', compact('statuses'));
+        return view('form', compact('statuses', 'levels'));
     }
 
     /**
@@ -79,7 +79,7 @@ class EntryController extends Controller
         ]);
 
         $entry = new Entry();
-        $entry->student_id = auth()->user()->id;
+        $entry->user_id = auth()->user()->id;
         $entry->status = $request->status;
         $entry->participant_as = $request->participant_as;
         $entry->level = $request->level;

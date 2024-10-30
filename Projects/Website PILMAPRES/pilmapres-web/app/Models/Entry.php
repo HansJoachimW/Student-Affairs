@@ -10,7 +10,7 @@ class Entry extends Model
     use HasFactory;
 
     protected $fillable = [
-        'student_id',
+        'user_id',
         'status',
         'participant_as',
         'total_participants',
@@ -18,8 +18,8 @@ class Entry extends Model
     ];
 
     // Define relationships if necessary
-    public function student()
+    public function user()
     {
-        return $this->belongsTo(Student::class);
+        return $this->belongsTo(USER::class);
     }
 }

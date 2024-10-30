@@ -1,0 +1,34 @@
+sidebar for navigation:
+- 8 pillars
+- several subpillars thin each pillar
+- several tabs per subpillar
+
+level 1 filter: by year
+level 2 filter: by faculty and major
+
+Info: basic info, data source, formulas used (will be copypasted by ICT so keep it simple)
+Note: basic notes for ICT (can be anything)
+
+first view: project (UCS, UCO, UCM), display, start academic year, end academic year
+
+PSDKU -> Makassar
+
+Tuan rumah, teknologi tepat guna, peserta pameran karya seni
+
+target:
+- scholarship dari PMB harus bisa di classify (discuss ke MNA)
+- Tarik data student clubs
+- "duplicate" cis UKM for student clubs (within prodi)
+- buat monthly report untuk UKM (until MMS kelar)
+- request tambahan cis untuk submission external beasiswa
+
+Job Desc:
+- B03 = Welfare
+- B06 =  Kompetisi
+- B07a = Organisasi
+- B07b = Welfare
+- B09 = Organisasi & Welfare
+- B10 = HOD
+
+TIMELINE:
+- Akhir Week 2: 7-8 November 2024

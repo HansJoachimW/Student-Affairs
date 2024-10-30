@@ -1,0 +1,560 @@
+﻿id;name;email;password;role;created_at;updated_at
+2;Hans Joachim Wiryonoputro;hjoachim@student.ciputra.ac.id;$2y$12$xaDmMM.fAMfGGlnYPXGqze52hDGxd7w390zX0PxKkoxgwDuabwc7O;admin;03/10/2024 16:29;03/10/2024 16:29
+3;Rosa Bany Widiaratri;bany.widiaratri@ciputra.ac.id;$2y$12$G6vU8CQ5Q9V4t6rrVEDe6O2ovoz32pxSyn2vMU3XDYeA51qwe8iuK;user;03/10/2024 16:31;03/10/2024 16:31
+4;Ni Putu Astasia LSA;nastasia.alsa@ciputra.ac.id;$2y$12$K7suTeQdkg05mcG6uljaeuHVHt5TDPmUtOLtmG1gx8vSuLKD6BO9a;user;04/10/2024 03:49;04/10/2024 03:49
+5;Angeline Yusuf;angeline.yusuf@ciputra.ac.id;$2y$12$MgvZllMiyrVsKD4unufWXOhwibV0lPXXZTpMRCR2UPfk14Dg7Qy1m;user;04/10/2024 03:51;04/10/2024 03:51
+6;S;stefany.prajogo@ciputra.ac.id;$2y$12$MErUQV.rGMvedir6z56KH.iYAu6V2fwHlCGT.27iQtyRdPg2YcpVe;user;04/10/2024 05:19;04/10/2024 05:19
+7;Novi Rosita;novi.rosita@ciputra.ac.id;$2y$12$DldM8ksZ4P0RxaZ5LtITruX1QhNzQyTaXSdgfrFDkRbzUO0k/3nXi;user;06/10/2024 11:03;06/10/2024 11:03
+8;Fel;fselimjaya@student.ciputra.ac.id;$2y$12$WK4G8Qxj8t2k5kCOPgpZxOZd6Faj4uCIGZbiQ7ghRXNo2XPUPTw0i;user;07/10/2024 01:00;07/10/2024 01:00
+9;alve;anatanael01@student.ciputra.ac.id;$2y$12$FgGeje47qw6o32VsiC3KA.Wko7jfPERVBHImGPAGvTwNuxZEcqMwq;user;07/10/2024 03:13;07/10/2024 03:13
+10;Lennard lucius huang;lluciushuang@student.ciputra.ac.id;$2y$12$32poZPCXwo4JFhOGduE7N.pUmyhQoEcdVyPZCLa0/x7usomIlepIK;user;07/10/2024 03:52;07/10/2024 03:52
+11;Steven Anthony Wongso;santhony01@student.ciputra.ac.id;$2y$12$IAQfuWkLljiqy3SCc4bPA.mClKtpyuTM/BLMmkU0DaHZUvM2UjPW6;user;07/10/2024 03:52;07/10/2024 03:52
+12;STEPHEN JONATHAN ONGGOWARSITO;sjonathan02@student.ciputra.ac.id;$2y$12$SdbDTUDrVxAkMfqSLXJwVu.ILhQFbGzTKnyvsAGMwf8BCKDl9YM5W;user;07/10/2024 03:53;07/10/2024 03:53
+13;vero;vjuliana01@student.ciputra.ac.id;$2y$12$xaDmMM.fAMfGGlnYPXGqze52hDGxd7w390zX0PxKkoxgwDuabwc7O;user;NULL;NULL
+14;Vei sugianto;asugianto@student.ciputra.ac.id;$2y$12$GdWbez3.Hl5xklKCYhBKuOt1Yk1dcBuqhb1VMQbDIaOd4wkcge0G2;user;07/10/2024 04:00;07/10/2024 04:00
+15;kesya felicia;kfelicia02@student.ciputra.ac.id;$2y$12$3wdX/9h6sp0Ch.n8jCFsBuDJWfNohkrVA8WaPSQrILLvbuHpdPbj2;user;07/10/2024 04:01;07/10/2024 04:01
+16;Shafira Alin Candra;salincandra@student.ciputra.ac.id;$2y$12$rL95wQ3eSkL2rFEjAGqHlOp/nc.EAp86ivzeOTF85.jWWqYDDa0ni;user;07/10/2024 04:05;07/10/2024 04:05
+17;Neola Omar Avizenna;navizenna@student.ciputra.ac.id;$2y$12$6hBDpTRc9aWamutMSJSJK.jNsH0wivKrc1XlsMcFAQQbYV.mkhwX.;user;07/10/2024 04:14;07/10/2024 04:14
+18;herald yobel;heraldyobel01@student.ciputra.ac.id;$2y$12$AjhS0JqM8yXDjQ7JNxLaueJQef1ErcbvEqJdGWQBcol4vGpSzL88K;user;07/10/2024 04:14;07/10/2024 04:14
+19;Budi Dharma Aryaputra;baryaputra@student.ciputra.ac.id;$2y$12$qsRjCelv83szJq7haN6pm.6VM8f67hQg7nRYoFdqN4GWjIHfDYD0W;user;07/10/2024 04:21;07/10/2024 04:21
+20;Ivana Gracia;ioendoko@student.ciputra.ac.id;$2y$12$PRtv2v0CnXUGRLitka0AVuPb826a.spIh4iNcmV0oazdTLdlkn8wa;user;07/10/2024 04:50;07/10/2024 04:50
+21;Michelle Annetta;mannetta@student.ciputra.ac.id;$2y$12$eIkTfqn2Z6wsp3EfZksfOuv1jp..a0uEgzOlfcSR6UNrY3BIT4CYq;user;07/10/2024 04:50;07/10/2024 04:50
+22;Sherice Laurence Halim;Slaurence@student.uc.ac.id;$2y$12$2276yeYN6Jt3/AGzfktbM.Gkw3o0XWc31T3zDbkHxjBCpQLMLXPQG;user;07/10/2024 04:53;07/10/2024 04:53
+23;Cherie Ibrahim;cibrahim@student.ciputra.ac.id;$2y$12$4ZOQNJLIB.Gltw0ZxEt2YOLUPwZUsWa3KPqQUNfrHla1PU.FI/UpG;user;07/10/2024 05:01;07/10/2024 05:01
+24;Shana;tazzahra@student.ciputra.ac.id;$2y$12$fTVv76kaDYBfBk9qj8MdJ.asXe0qFJxI5UZXPQE8RzXukOmgBfFty;user;07/10/2024 05:08;07/10/2024 05:08
+25;Devi Mahayani;igustiayu04@student.ciputra.ac.id;$2y$12$OTRV4Pj8rPIRW9Ou62tXUOnpau6OMf0dRF3Ry3SF8HkElDTnhZMky;user;07/10/2024 05:08;07/10/2024 05:08
+26;Febi;febiola01@student.ciputra.ac.id;$2y$12$qDxNFDWHAXxT94zSGF7MZOxcw.dei36I7BFMwt1UcBIomQBzew5Ta;user;07/10/2024 05:10;07/10/2024 05:10
+27;Abdus Salam Hidayatulloh;ahidayatulloh@student.ciputra.ac.id;$2y$12$eM1G/7plMiZj8X8Y6Q/Yj.wUuoNjk4qAiaOcNXvFVNxdhKXcFtO.e;user;07/10/2024 05:33;07/10/2024 05:33
+28;Rinaldy;rtanriady@student.ciputra.ac.id;$2y$12$liRlVX7E1fa6fjH08GSV8.upTsnUnP2uEM8F.4EDuMrQlLA3Hj0uO;user;07/10/2024 05:35;07/10/2024 05:35
+29;Yohana Jocelyn Guntur;yjocelyn@student.ciputra.ac.id;$2y$12$OyY1pIcRyCHaxfEGHBGpL.GZ1YjAUntdjRYeAACRN3uilfn0zGPnG;user;07/10/2024 05:36;07/10/2024 05:36
+30;Siane Soesilo;ssoesilo@student.ciputra.ac.id;$2y$12$T2uLFnifl7bG4dGzxAMUg.d0uNuE1cUOcagbVUcq58tgi79FKRVAi;user;07/10/2024 05:36;07/10/2024 05:36
+31;Felicia Joshlyn Purnomo;fjoshlyn@student.ciputra.ac.id;$2y$12$2VY45DhkVhBXGuRbqhlTwemPJuxvz0VhPd/Fymq0EqWuvQ/hrvWZm;user;07/10/2024 05:36;07/10/2024 05:36
+32;Vincent Halim;vincenthalim02@student.ciputra.ac.id;$2y$12$xcdi0bUHYtKw6NzqSEqrn.Fkay.c4Mu9xSXQ5RSBV02Gq14GRvwNK;user;07/10/2024 06:53;07/10/2024 06:53
+33;Adelio Surya Putra Pratama;asuryaputra@student.ciputra.ac.id;$2y$12$q/sG/cshGlBrcQhv1gxFR.N.FjYAkkTJ3KtS9UJ3ugOprmt5ZhXfq;user;07/10/2024 06:54;07/10/2024 06:54
+34;Angelique Kyra Wahyudi;awahyudi02@student.ciputra.ac.id;$2y$12$8Svtf.ASaGfNRoxqYAW7/e.0gfiFsohQhVb6d3cto0GqyJdi0mnoG;user;07/10/2024 07:53;07/10/2024 07:53
+35;Clarice Harijanto;charijanto01@student.ciputra.ac.id;$2y$12$VrfUo8JbeBGcNfoIsGe14.jN0BrY3hm8nG4Vl7BO4nik6zxAJSFoi;user;07/10/2024 07:54;07/10/2024 07:54
+36;brigitta audrey maselite;bmaselite@student.ciputra.ac.id;$2y$12$8PMRZi7VQ.IZRxtUwet8cec6UQFm/p7hR6z7Gbc3GuNWkCbg0oQIK;user;07/10/2024 08:36;07/10/2024 08:36
+37;Angeline Susanto;Asusanto04@student.ciputra.ac.id;$2y$12$4HYB0qgoUqycGA09UA0jIuo3w1UUhhqaj4R0zNStTGSnceK7JY9RO;user;07/10/2024 08:37;07/10/2024 08:37
+38;Van;vashleytanoto@student.ciputra.ac.id;$2y$12$VFJhX8UPYoo8uPCBUsHnHOJzzLkDgc9u3voS6iKOkwKW1VB6eWEqa;user;08/10/2024 03:20;08/10/2024 03:20
+39;Callista Oktavia Purnomo Sidi;coktavia04@student.ciputra.ac.id;$2y$12$e3UwU89cfAwPQ/FHGJTOgurzlAU8NmwXYaza3Li4XNJs3U4p7jMSS;user;08/10/2024 03:21;08/10/2024 03:21
+40;Yuhwa Evelyn Tanusa;yevelyntanusa@student.ciputra.ac.id;$2y$12$9jXCUi2W8oPKr2PKuPYCkOB/EJTMsQSJbV/zqeOmGPt94H4G9N6Me;user;08/10/2024 03:21;08/10/2024 03:21
+41;ily;ljesslyn01@student.ciputra.ac.id;$2y$12$J77laD68WNf3bcbeSIjv8.IISdyTTOJ0qyCB1nyJViuUAoLgf5HkK;user;08/10/2024 03:21;08/10/2024 03:21
+42;Mevina Alexandra Imam;malexandra01@student.ciputra.ac.id;$2y$12$nTlxN35O1KyEH4IrkFYsVexwa90b7hyvQIqBwSBagpAOehjEhzCCu;user;08/10/2024 03:22;08/10/2024 03:22
+43;Rosalinda Febiola Wijaya;rfebiola@student.ciputra.ac.id;$2y$12$q9QEsIziMeRIZNjUjrsfH.ILq7GkoxaMqqPrYNNa.0khGA4BMfoyG;user;08/10/2024 03:22;08/10/2024 03:22
+44;Attalia Salwa Sabita Yulianto;asalwasabita@student.ciputra.ac.id;$2y$12$/lqBAyK.eDD4IOK/gv5CSOhOnHyDU385B0TDBbYkQCaifhxsBmvSy;user;08/10/2024 03:22;08/10/2024 03:22
+45;Keshia Aryadi;kaurellaryadi@student.ciputra.ac.id;$2y$12$QTGkpKrfEldVD2zKTCyqDeYaBX0Sdwy/pgZucpoAYdQIrQWdCrhGa;user;08/10/2024 03:43;08/10/2024 03:43
+46;jessica gunawan;jgunawan05@student.ciputra.ac.id;$2y$12$JklLqiVv9P/oC8.v5Qe.I.ITyBdqsOhiNcPH1PrRIsthSvkdaL1Zq;user;08/10/2024 03:44;08/10/2024 03:44
+47;Candra Giga Kharisma;ckharisma@student.ciputra.ac.id;$2y$12$4FjG4kgOWd2eQBUoMZDMfeoaD79ogaBrtis6X/boWZCowFOLa3CJG;user;08/10/2024 03:44;08/10/2024 03:44
+48;Alexander Immanuel Harjanto;aimmanuel01@student.ciputra.ac.id;$2y$12$glEpNV7bi4KLGBjomPe.H.9ADXacN2MTyKvAo6AxfzcuaoRkRE1OC;user;08/10/2024 03:44;08/10/2024 03:44
+49;Pauline violeta heng;pvioleta@student.ciputra.ac.id;$2y$12$tjmFBUukp0ozX.62jf7QCuFvcAteAF5Arepx2U3eIBstFFOIcHeZa;user;08/10/2024 04:51;08/10/2024 04:51
+50;Elisabeth Caroline;eaprillia@student.ciputra.ac.id;$2y$12$kLIwuFjgb4yOfmUgcJ1O.ez0kdXD17duSm.A7Ctor/v6pSPoUP.i.;user;08/10/2024 04:52;08/10/2024 04:52
+51;Regina Soempiet;rsoempiet@student.ciputra.ac.id;$2y$12$3sVT6oCaHVqMPEaPETP6Qu/6t0zvFp5TVP6qr9Eu4w1ExtASR9spG;user;08/10/2024 05:09;08/10/2024 05:09
+52;Joaneaster;joaneaster01@student.ciputra.ac.id;$2y$12$5BgL1AXSETN5fzW37XSDIe70nciCEr.YwktX8aN0jCDeCwZlUyq.y;user;08/10/2024 05:09;08/10/2024 05:09
+53;Jessica Claresta;jclaresta01@student.ciputra.ac.id;$2y$12$V2uAs7DavZxBC5unngBwWuIO0OnfasV0OuK6qI/EuqAHse9bBcS5K;user;08/10/2024 05:09;08/10/2024 05:09
+54;Shannon Chrestella Valencia;schrestella@student.ciputra.ac.id;$2y$12$ssyj8lw.GN6cmpZNxQFT0OgL5qeKW6og9WpV5L2Zi9JhsQVtY4kTC;user;08/10/2024 05:13;08/10/2024 05:13
+55;roku;rroestanadjie@student.ciputra.ac.id;$2y$12$k317qZDWDaQsW/EFqFdhDee19p9jQJ4CM1kVUtM1jCxqBvjhyAyNa;user;08/10/2024 05:32;08/10/2024 05:32
+56;Rahmi Fakhirah;rfakhirah@student.ciputra.ac.id;$2y$12$tDLat6f16bhhv2G3c9yEqOg7uzcVfz.1eyIYhHTrAtonl7fpdMt9S;user;08/10/2024 05:32;08/10/2024 05:32
+57;Steven;ssantoso01@student.ciputra.ac.id;$2y$12$slfqt0W5/iDbC8JzFMZqcOzn5kcl8cRji.63fltUvzEkTIKvl8Pj2;user;08/10/2024 05:34;08/10/2024 05:34
+58;Jason Emanuel;jemanuel@student.ciputra.ac.id;$2y$12$HG2nN.R0mBmawcjMHMWLpe/ynP6ROQvJglJ/0oK/LQz8V5/gvDDZy;user;08/10/2024 05:38;08/10/2024 05:38
+59;Tegar;tmarino01@student.ciputra.ac.id;$2y$12$moELKKWPnE4vHmmcZbY7RuWp7G7W78TsPWRz0rtCCCPgpKRDTwss.;user;08/10/2024 05:38;08/10/2024 05:38
+60;Chrisensia Abigail Gani;cabigail03@gmail.com;$2y$12$GtISjQ0vDI2zfHchfu8HBeKDpSVYou8OATMV/IlQIVGK.l91aOG8i;user;08/10/2024 05:41;08/10/2024 05:41
+61;brilian indah;bpawestri@student.ciputra.ac.id;$2y$12$TEHnGYyWBNKn1.hQpD/XouxCrSva7nHSy3hm6tKiYVG5/ywjauIKG;user;08/10/2024 05:41;08/10/2024 05:41
+62;Stevanus Ivan Santoso;ssantoso04@student.ciputra.uc.id;$2y$12$I57gK2ht45uAXTrxulHGleOmzQbbShLMcyi9fTOCdpOKnbvL1oVgC;user;08/10/2024 05:41;08/10/2024 05:41
+63;Farrel Wira Angkasa Andwikana;fangkasa@student.ciputra.ac.id;$2y$12$TvsA6zq2Hs9q5Ckn03EKk.lfWe.Yrv0FjjJyfFuQGHq1IVMrQyHSu;user;08/10/2024 05:41;08/10/2024 05:41
+64;Mathew Rudy Budiman;mbudiman02@student.uc.ac.id;$2y$12$u659nakRbEKUqXkBtOf8VOSIiUVpascQ2hlnmLGDXG54JoacbJjEu;user;08/10/2024 05:42;08/10/2024 05:42
+65;Vhiolina Christina Tidore;vchristina02@student.ciputra.ac.id;$2y$12$d.QgOgWpWYXHKs6w/075SOy1mBenA1Eut4nbe3FQnVfdyhWrCp1ha;user;08/10/2024 05:42;08/10/2024 05:42
+66;Holyana Gracia Wijoyo;hgraciawijoyo@student.ciputra.ac.id;$2y$12$M19J0/4ny0gyj8fwXNIjPeEqlvRvQZlt/uENyPpQ9p0aeiu8dNpfm;user;08/10/2024 06:13;08/10/2024 06:13
+67;Felicia Sword;feliciasword01@student.ciputra.ac.id;$2y$12$SqmtiKzDfVrjczzenM/v3uGA15BUUQU00FgjUkZGRu7sSNCB7mXQS;user;08/10/2024 06:23;08/10/2024 06:23
+68;Erlita;erlita@ciputra.acid;$2y$12$9KTpVQserl5NKyph29YiEOuH1JRLKxEkFW80z2Xnrs3OflzVJjiW.;user;08/10/2024 06:45;08/10/2024 06:45
+69;Alicia Natalina Dharmawan;anatalina@student.ciputra.ac.id;$2y$12$O4Q8BlR1yT20u79I0Hf.MOAcGcUp7vxzMX3FdNb4JLRRp5tMHqYC2;user;08/10/2024 06:46;08/10/2024 06:46
+70;Natalie Alicia Boedijanto;nboedijanto@student.ciputra.ac.id;$2y$12$DYHW//VC9Faiuh6KdGg1JOMlHmK4m.cTqQVHtrR8wgr8I5cJPCiEC;user;08/10/2024 06:46;08/10/2024 06:46
+71;Fionna Meliora;fmeliora@student.ciputra.ac.id;$2y$12$kSQ9snkGsK4WhDwnqFKgg.ogbsHATzYV9Hi6PqzIxhbmEodW06Y0O;user;08/10/2024 07:14;08/10/2024 07:14
+72;Owen David Tanaka;odavidtanaka@student.ciputra.ac.id;$2y$12$Huj9ipw/2flm/bOEck9BkeQqp6KV/hMkN0spH4qgu395VPy8c2yDy;user;08/10/2024 07:20;08/10/2024 07:20
+73;Patricia Aileen Wijaya;paileenwijaya@student.ciputra.ac.id;$2y$12$brj5DA6wFo5lIOGV7eThLuOkbVnMFjfc5stDdp7pDeZzroILBGZBi;user;08/10/2024 07:20;08/10/2024 07:20
+74;Ruby Angela Lovell Sutanto;rangelalovell@student.ciputra.ac.id;$2y$12$7Zwvef9/WpzUwqUpQWGLv.Lu6eVoVsyaBI0czaf9CRXWWWmld.R1a;user;08/10/2024 07:27;08/10/2024 07:27
+75;Lim Alvin Fernando Santoso;lfernando02@student.ciputra.ac.id;$2y$12$c8cdFL177oqN0/EVMf9T3e52/SXSx/vrrlocK.pB3lyt4ViXdbY36;user;08/10/2024 07:28;08/10/2024 07:28
+76;Alexandra Kannitha Michi;akannitha@student.ciputra.ac.id;$2y$12$2/ATXwBx5EYI4Wmp51/mQu00Eo/xPC.rmV415KeIyl3ZaxJPgzl0q;user;08/10/2024 07:28;08/10/2024 07:28
+77;Mulan Shiory;mshiory01@student.ciputra.ac.id;$2y$12$8WKJ71D5jCyj2cqMm3zM7OOwzHsH1jEo1PMNp6QUKY5zaqaYtD2LW;user;08/10/2024 07:29;08/10/2024 07:29
+78;Shavira Dian Kirana;sdiankirana@student.ciputra.ac.id;$2y$12$YSYewc9R0iWikzUV.XaQquytG7PVFKZEQ7ct9g90sN9aOUE3EwBqK;user;08/10/2024 07:30;08/10/2024 07:30
+79;Jessica Ethelind Arvanti;jethelind@student.ciputra.uc.id;$2y$12$T0IATFF1h065PAQY8a0z/OtdV4e5FYb00gZqb/bvw2w3kc7Y5LG8K;user;08/10/2024 07:31;08/10/2024 07:31
+80;Michelle Ashley Sin;mashleysin@student.ciputra.ac.id;$2y$12$aecU.FuDC3H3pao7b.cSIOHSh3qwa71crhF3kgh8/8nfOuWW7eiNC;user;08/10/2024 07:48;08/10/2024 07:48
+81;Kennice Salvia Halim;ksalviahalim@student.ciputra.ac.id;$2y$12$4z3pbTbCLEYpLhh7PZoAgufDTh8K9rICmCSfRfsV2dCP6bYIoHBuC;user;08/10/2024 07:48;08/10/2024 07:48
+82;Rachelle Valerie Tambayong;rvalerie01@student.ciputra.ac.id;$2y$12$dN74vgz0.VraM.IP1WOAreLBnGDM0jn77HF8rhDVcYcGk7MU/9rf6;user;08/10/2024 07:48;08/10/2024 07:48
+83;Nasya Claryn Thio;nclarynthio@student.ciputra.ac.id;$2y$12$qANySCMJmD7Vrjz12t8k9OwiEc5R03Q/AGua05vWiL98FShE.h7la;user;08/10/2024 07:48;08/10/2024 07:48
+84;Marvellyn Natasha Wijaya;mnatasha02@student.ciputra.ac.id;$2y$12$9cr.mc6Cyx6WgV9J4RdyjOS5u0u.FWj9HpvvQkGQCzhF/dRmxw.Fa;user;08/10/2024 07:49;08/10/2024 07:49
+85;Alexander;agunawan22@student.ciputra.ac.id;$2y$12$S9ZX15gZZSthJk9rHirYjuhNKlFlzO5qP8hHyEpvxYAan2iWOyfVC;user;08/10/2024 07:49;08/10/2024 07:49
+86;Reinaldo Wijaya;rwijaya10@student.ciputra.ac.id;$2y$12$muJa1s8lI6a4DJEtQ2/gluuuIbKU/hAMRmjSx8z1ftUcHsPY5COJ6;user;08/10/2024 07:51;08/10/2024 07:51
+87;Michelle young darmawan;mdarmawan01@student.ciputra.ac.id;$2y$12$Y3ObCRcTPmIye6KWFdaXTuNNqTts80iO/exhjMBkyKh3sXruKNr62;user;08/10/2024 09:09;08/10/2024 09:09
+88;Sheren Reggyna;sreggyna@student.ciputra.ac.id;$2y$12$Qeq6UITbh5opvCZei9kac.IdighzUm3MVF9ZeOGxfTi9kg6Nr0ZQ6;user;08/10/2024 11:48;08/10/2024 11:48
+89;Nayla Shorea Nova;nshoreanova@student.ciputra.ac.id;$2y$12$VYuN4chzayxr2gb8DQmPEe9E./t3Fepikpm0xeVO2YS.3CxGYKDFO;user;08/10/2024 23:51;08/10/2024 23:51
+90;Zola Paradise Putri Wahyudi;zparadise@student.ciputra.ac.id;$2y$12$W5gY1DGqHaXcFNrmEAt9hOSUpPFhE86jL/bGk3bsTCUbD0K9bzIKS;user;09/10/2024 00:44;09/10/2024 00:44
+91;ardelia mettasari tansen;amettasari@student.ciputra.ac.id;$2y$12$Q0e4Z8NnERqBihk3GI3dteQhHEiXA2Dzq5bJ5w7bJki/XWA5Y81tK;user;09/10/2024 01:34;09/10/2024 01:34
+92;Evelyn;evelyn05@student.ciputra.ac.id;$2y$12$Z4MMERfegpeIGCQUYnMpSuePqiggsf1gM7Svgip5c8V5Sh5oTA6J2;user;09/10/2024 01:35;09/10/2024 01:35
+93;Jessica Florencia;jflorencia@student.ciputra.ac.id;$2y$12$yb1Adp.4LRo6RWKK97Wem.ehg5oTvJHScl9GhcP270WAgJ4W4ID8u;user;09/10/2024 01:39;09/10/2024 01:39
+94;Theresia A N Dangga;tagustina@student.ciputra.ac.id;$2y$12$PxDZa6MVYGSCq7q7Hbsd3uqq0Vp/eLV2IDDm2Tm1UNhW1jcXi2rpq;user;09/10/2024 01:39;09/10/2024 01:39
+95;giska Trie arya putri;gtriearya@student.ciputra.ac.id;$2y$12$fah6kNyPZbV25etdtGua4.QNASwW54G8RMMdZZSEU5wvcfEqhDAAu;user;09/10/2024 01:39;09/10/2024 01:39
+96;Jocelyn wuisan;jwuisan01@student.ciputra.ac.id;$2y$12$d/0gL5icC9yH.22Pc9ew5ufk9itgCqMqAiKpVIRULnT17ZZyu3Ury;user;09/10/2024 01:40;09/10/2024 01:40
+97;vanessa aprilia;vaprilia02@student.ciputra.ac.id;$2y$12$n7w6cVbjFZTYEGIkl/jkE.CV6mXmuqc..Ry5C7WAEeATVq7TVmhPS;user;09/10/2024 01:40;09/10/2024 01:40
+98;Faith Abbigail;fabbigail@student.ciputra.ac.id;$2y$12$cqTWaE6Yn7jg/9CNg6XHNea/qfTAnz/MpdrOAbKbOq4r1JS6iRHS.;user;09/10/2024 01:40;09/10/2024 01:40
+99;Jeven Leonardo;jleonardo@student.ciputra.ac.id;$2y$12$d7NdwQYusAi3TlePyQOoG.x3Hv1F720NQTv7aVwvb8ILfflYi1ufu;user;09/10/2024 01:40;09/10/2024 01:40
+100;Melia catharina;mcatharina@student.ciputra.ac.id;$2y$12$WDrA2ob6e6xjHQ.oVn7Mde6cWcgEb6Opw0MJdB2TpXyWFFa77954m;user;09/10/2024 01:41;09/10/2024 01:41
+101;Fredy Samuel Marpaung;fmarpaung@student.ciputra.ac.id;$2y$12$BwodBEwmbVm8Z3PKYiWmeuN1Tm7HYFShOm2qiqhtKw48B767VzMKm;user;09/10/2024 01:41;09/10/2024 01:41
+102;ni komang candra suka wijayanti k;nkomangcandra@student.ciputra.ac.id;$2y$12$/dZ02m5vN70pnuAmsayYguB1HUQeq20tWmpW/21NmyQLndkMjWP1O;user;09/10/2024 01:42;09/10/2024 01:42
+103;Lavenia Sentoso Gunarto;lsentoso@student.ciputra.ac.id;$2y$12$7HWM/urRh5V6dky20VgD4.JuJqLTPmOmfOj8w1j2SeIJ1CjlqDFBS;user;09/10/2024 01:46;09/10/2024 01:46
+104;Delfa Astrid Azmawit;dazmawit@student.ciputra.ac.id;$2y$12$A34VwzmNfz8/DkbWgmWXFOmMC/G6dIZKX9T.Yycp/cyx4o8wfKVPi;user;09/10/2024 01:46;09/10/2024 01:46
+106;Sang Ayu Made Putri Cantika Dewi;sayumade@student.ciputra.ac.id;$2y$12$lZLAWZ3Y6rAVOCtGj.BGIeOaALZo4xRTZgyDSqHpHLLWth6u7QlrG;user;09/10/2024 01:47;09/10/2024 01:47
+107;Jessica Angelina;jangelina03@student.ciputra.ac.id;$2y$12$q/d3eT0WSdnU.xdhT0tRfuJjFZ69DD7IoxL7yPNDtWdhwILMatz82;user;09/10/2024 01:49;09/10/2024 01:49
+108;Laurentia Loho;laurentialoho01@student.ciputra.ac.id;$2y$12$Vx4Wh/L2qGZzN3wuHJywYeBSJBeNB8XPlICYIcq5LK7XFUEtWAIvq;user;09/10/2024 01:50;09/10/2024 01:50
+109;Dinda Aziza Bry;dbryllianna@student.ciputra.ac.id;$2y$12$BTA/EqlLki9b/WChtQqwmuG4YG/RpAmUV5QqHTW3M.rN5mu2Gh/QC;user;09/10/2024 01:51;09/10/2024 01:51
+110;michelle gunawan;mgunawan07@ciputra.ac.id;$2y$12$ifJW4d.1gDNvz/EKtaSmHupYuVmYrOI9Wty2IDFLf0cGt03FFJfAO;user;09/10/2024 01:51;09/10/2024 01:51
+111;Anak Agung Ayu Rani Ananda Yananta;aagungayu01@student.ciputra.ac.id;$2y$12$2DBOaSfpFPopmwjwxdsMaObxalx1g3mdIIIB9ChSso8901lcwEU2.;user;09/10/2024 01:52;09/10/2024 01:52
+112;Gabriella Christa Belva;gchrista@student.ciputra.ac.id;$2y$12$CVb/8uyCiNyK82iCgkDALeb2b3gKgG8HoccT5Vo7HW7fejLmIK6jO;user;09/10/2024 01:52;09/10/2024 01:52
+113;Adelweis Intan Aurelia;aaurelia03@student.ciputra.ac.id;$2y$12$OdK.nVzc6s./.IpASAb/hOdw4TtA8P8LbpAnK/qV42XP1JDnGhxoq;user;09/10/2024 01:53;09/10/2024 01:53
+114;sabrina anastacia;sanastacia@student.ciputra.ac.id;$2y$12$q97q45SU4jWXEP0gYe5.COo08codmDIyIdtaMIC3nOXtR9guRDlDi;user;09/10/2024 01:53;09/10/2024 01:53
+115;Audrey Ella;arahardjo01@student.ciputra.ac.id;$2y$12$HRxd0EkxwvoDDT9P1wPCQeU/PUEWzJYpCnwdOfslCOXJuAfOFUkae;user;09/10/2024 02:05;09/10/2024 02:05
+116;Aisima Karundeng;akarundeng@student.ciputra.ac.id;$2y$12$PZfB3lIZsgNM66I6DXB9HOv/QzICw9gmwqjAFiWvmjXB3Lm6Ktx3u;user;09/10/2024 02:05;09/10/2024 02:05
+117;Florentina Adeline Jakub;fadeline01@student.ciputra.ac.id;$2y$12$KCDgkK1l3lzCAX3ZK9dZ1Oro.DmggrOjgruAfsmSnuRNEmobd.NXW;user;09/10/2024 02:05;09/10/2024 02:05
+118;Matahari Dea Zakiara;mzakiara@student.ciputra.ac.id;$2y$12$NaqLyhHd9qV10J9vxz9rYuOfSipqi0ap4xa5Bj5UlvVmYSINxjtWa;user;09/10/2024 02:08;09/10/2024 02:08
+119;Chelsea Deanna Husin;cdeannahusin@student.ciputra.ac.id;$2y$12$fYFErurrVYMCz9QT6BEVjOPPZzos7C.0WJDiMKafDkXroX2FdCPv6;user;09/10/2024 02:08;09/10/2024 02:08
+120;Clarissa Crystal Ruby;ccrystal@student.uc.ac.id;$2y$12$amwV2dPRqXzKVGxtIdUQmeK8EU01QMeAopTxHnSN1pw7/ywvX5loS;user;09/10/2024 02:08;09/10/2024 02:08
+121;Clarissa Nadia Lieus;cnadialieus@student.ciputra.ac.id;$2y$12$EGOqddSBvLfjXV0yeF/RpO38OYmIaTSV1kOyELDE1WoDTXDbSWTNK;user;09/10/2024 02:14;09/10/2024 02:14
+122;Jennifer Laurent;jlaurent01@student.ciputra.ac.id;$2y$12$RFwXEHGn6IqzfDtA5CiZienzm.y32Tc6qyjqUOg20jFuuHD0H9hQ6;user;09/10/2024 02:14;09/10/2024 02:14
+123;Ni Kadek Bulan Pradnyadewi;nkadekbulan@student.ciputra.ac.id;$2y$12$Cp7aO7WA5qJRqx./mNUUq.uczxCQsX9aK7VTi1tGyLhpC8D6HMP/m;user;09/10/2024 02:15;09/10/2024 02:15
+124;averina calista prasetio;acalista01@student.ciputra.ac.id;$2y$12$JehcRbYVHevb.cNw6r7/VuIaxR/xElhcMXu/UKvdtORR7ynH.Qlse;user;09/10/2024 02:16;09/10/2024 02:16
+126;Ni Putu Abelia Anjani Putri;nputuabelia@student.ciputra.ac.id;$2y$12$S/ZT4SYPhUIWmqQBnn.PCu6bPMoVlREppYdyJW800GmK0WlCr4X3S;user;09/10/2024 02:16;09/10/2024 02:16
+127;Dewa ayu cahaya praba aishwari;dayucahaya@student.ciputra.ac.id;$2y$12$s7D5KV/a7OFWBUEibvTWneDAo8uWdPtnTi/Ki758Yoqtr8hNNBKr6;user;09/10/2024 02:16;09/10/2024 02:16
+128;Jonathan Wijaya;jwijaya12@student.ciputra.ac.id;$2y$12$/6D954g7VMCeHiu/LogeI.9zZMLdfUQPl0b5NtCmX1cIATH8u9seW;user;09/10/2024 02:24;09/10/2024 02:24
+129;Daryn Iman Pratama;dpratama06@gmail.com;$2y$12$r1Mt3ZVge9iP/ZsWw8uENutZ7fmZxtGKe/RxGmp8.YvFxQg9rG36a;user;09/10/2024 02:24;09/10/2024 02:24
+130;KADEK BRAHMANA NAWA PUTRA;kbrahmana@student.ciputra.ac.id;$2y$12$wPuT9E75scIohPnGJCCeQO2bj8468fU51A/3W3wQ85lEZ1HhAot.K;user;09/10/2024 02:24;09/10/2024 02:24
+131;Wesley;wgoeinawan01@student.ciputra.ac.id;$2y$12$03VBAjY9VZQ15u/lgGjXN.wi/XrY.ZVq.wS3twHjiVuB5/yH3tMBC;user;09/10/2024 02:29;09/10/2024 02:29
+132;NICHOLAS GERWIN MAWARDJI;nmawardji@student.ciputra.ac.id;$2y$12$nmN.MVJtmU8F1YYOChW/FuVImNlEName6a41DDNh1NiZFimTnxJAe;user;09/10/2024 02:30;09/10/2024 02:30
+133;Tifara Aurelia Marvelyn;taurelia10@student.ciputra.ac.id;$2y$12$0JGIMAQMhPmZ61oCQiXCcu6WdAM4uPvhW8l9q9gYtzenUF/lbJA/G;user;09/10/2024 02:31;09/10/2024 02:31
+134;Elenteresa Laura Barut;elaurabarut@student.ciputra.ac.id;$2y$12$cS40LHWzoi4r1u9aiKRfYenpy0DJnstirVXpf3w9YwA9ALoIVuOiK;user;09/10/2024 02:31;09/10/2024 02:31
+135;Aaron Asa Soelistiono;asoelistiono@student.ciputra.ac.id;$2y$12$bOLfMSL3XuKO0wgI3Ee1ve2ChKRvbzOw4NKpuzJwTSDp73iTMTlgO;user;09/10/2024 02:32;09/10/2024 02:32
+136;muhammad wildan hilmiyan bintang;mhilmiyan@student.ciputra.ac.id;$2y$12$RhZGqwrYS2iuU0P7WWKdp.pzWul5gddZoaPR4.pvp4rzETRNYpHeu;user;09/10/2024 02:34;09/10/2024 02:34
+137;Felicia;felicia02@student.ciputra.ac.id;$2y$12$uVRqqfT1NQu3mqHxhXo9LeBNkwKBatZWwJGHvgi.NiQYlLyFb4lwa;user;09/10/2024 02:39;09/10/2024 02:39
+138;Genoveva Alana Saksono;gsaksono@student.ciputra.ac.id;$2y$12$I1HG71adL/DqYGYWjByaL.AxM6e2oZ/5BGGyNRU0SJzB034cPdn.e;user;09/10/2024 02:39;09/10/2024 02:39
+139;Natalie Grace Widjaja Kuswanto;nwidjaja01@student.ciputra.ac.id;$2y$12$fDLPtFgNEDER1qG2M9Ux5ezQrednJuyNlHBHdNGeJHCOC1LTfm3F6;user;09/10/2024 02:55;09/10/2024 02:55
+140;Jessica Laurentia Tedja;jlaurentia01@student.ciputra.ac.id;$2y$12$uFn6OIR9M0DNid857uc7h.isAn0fy99KYrGdV6b28nn.nbP7rvsDe;user;09/10/2024 02:56;09/10/2024 02:56
+141;Vita Tianina;vtianina@student.ciputra.ac.id;$2y$12$mvx0nGj8TEhCL1vE710pRuVkS4.1Eq.CbLksMGFIL2cr0kODt0TsW;user;09/10/2024 03:02;09/10/2024 03:02
+142;Marcella;marcella01@student.ciputra.ac.id;$2y$12$MYsOmKSu64.rPQRYCX6D1e421Hqo9mHiI3ZBxC9dpCaLQJMR5XOJK;user;09/10/2024 03:04;09/10/2024 03:04
+143;Naomi Aqeela Yubi Agfarizka;naqeelayubi@student.ciputra.ac.id;$2y$12$ZvYRlSCXHWdAoyPC8v7JIeXOusfIWUzKZGNs/rQnFXqHh5cGcp7Di;user;09/10/2024 03:04;09/10/2024 03:04
+144;Muhammad Althaf Hilmi;malthafhilmi@student.ciputra.ac.id;$2y$12$oY8p7udtq20jFAREQkXmAu1gImAKCCiJDmkqinDpSvdNLi3aKpNMK;user;09/10/2024 03:06;09/10/2024 03:06
+145;Agnes Christian Kho;achristian15@student.ciputra.ac.id;$2y$12$TAbdmBLk7raT.90.sA8wO.s70IGUinwdbrZgP.1un51.9VB8zQ6Du;user;09/10/2024 03:06;09/10/2024 03:06
+146;Obed Naufal Robbani Mawardi;orobbani@student.ciputra.ac.id;$2y$12$fFwSMSDov1LDn57IcCAB0OGExmAvJYsOHQotwsErAYF3ZRUeB5c.y;user;09/10/2024 03:08;09/10/2024 03:08
+147;Tiffannie Audrey Suciatmaja;tsuciatmaja@student.ciputra.ac.id;$2y$12$GUuK/S9k.KOssOGob/XDOexNpqddWfbiuPef4HkbaquV0rYBc/HVC;user;09/10/2024 03:08;09/10/2024 03:08
+148;Nur laily abdullah;nabdullah@student.ciputra.ac.id;$2y$12$pTg3AgqTuLGVfInmweadXuawof6a4uvjkm2B5I6hcIIZX4hNMBkGe;user;09/10/2024 03:08;09/10/2024 03:08
+149;Aloysius nelson ronny winarto;anelsonronny@student.ciputra.ac.id;$2y$12$CQjCj7t3ijZ/ibDtDI2aIuUkry9PTsiRGdtWXEw4ADx.XRjYjlE0S;user;09/10/2024 03:08;09/10/2024 03:08
+150;Angelina Anggriawan;aanggriawan@student.ciputra.ac.id;$2y$12$g7YxQGSidtMs4U7BAJptROsBU/k700mXRX9XgtweB39VNHhxQLmFm;user;09/10/2024 03:08;09/10/2024 03:08
+151;Richard tansari;rtansari@student.ciputra.ac.id;$2y$12$iH8C.wacAvRBkjSQtZunZeUZbqez4ECaKqMzzDZWlXOMZcFu3KCIy;user;09/10/2024 03:08;09/10/2024 03:08
+152;Nasheera Zahra Kurrotul Elcha;nkurrotul@student.ciputra.ac.id;$2y$12$3h7EL2u2t55b9kadLvdq5OzyEQ1iVN/jXGOuMN3cXYw92u0VD1taS;user;09/10/2024 03:08;09/10/2024 03:08
+153;Christoper nathanael cayadi;cnathanael01@student.ciputra.ac.id;$2y$12$f8CkuxxeUgf8GJ//baK5MOz4aNLJp5AhczbiYZLGSlqWPbEU/rOde;user;09/10/2024 03:08;09/10/2024 03:08
+154;Lyvia;lyvia001@student.ciputra.ac.id;$2y$12$65E8y0/IUojs/OOMR8OkguLRfi14WCsk1OTGyeeeTOuGTEdamu0B6;user;09/10/2024 03:08;09/10/2024 03:08
+155;Lim Wigliam;lwigliam@student.ciputra.ac.id;$2y$12$kNkVJaw6XL8AxRIVfCNim.F5n/dBlmdrJ4gT019VxjeYc/hm5uRYi;user;09/10/2024 03:08;09/10/2024 03:08
+156;LUNA AVRIELLA AZZAHRA;lavriella@student.ciputra.ac.id;$2y$12$TnA/k543Ar72Ks5cmxij2.J/0kDaQNEKiNDbWE97YY7nytRoOnWmm;user;09/10/2024 03:09;09/10/2024 03:09
+157;nicholas hartono;nhartono03@student.ciputra.ac.id;$2y$12$taeQlJb.ix89YSfNgwwlKeD9fJkEifM0Uuz4iwQ6zvmeKQU8pD0OW;user;09/10/2024 03:11;09/10/2024 03:11
+158;Pricilia Nurtanio;pnurtanio@student.ciputra.ac.id;$2y$12$CpY8eMhrXz8oxgLqnNFcqeuLfQ6PX0BxjCS5dd8nW71BUHRyViDn2;user;09/10/2024 03:11;09/10/2024 03:11
+160;Catherine Anastasia Dinata;canastasia02@student.ciputra.ac.id;$2y$12$58ruaF8kLtNnhxd.uiWpZe4ubMOuu/k8DGgwg3Oaofi0taOqhTijK;user;09/10/2024 03:12;09/10/2024 03:12
+161;Nathania Abigail Beryl Silaban;nabigail@student.ciputra.ac.id;$2y$12$8.X/cADqj/UCbowQIQm15uBFMcHQFP89yduIAWJY8lercmjimlYuK;user;09/10/2024 03:12;09/10/2024 03:12
+162;Low Jing Yin;ljingyin@student.ciputra.ac.id;$2y$12$dwgdGVMVMyGr9IuK2U4/fuIPZOgx/EYxI1BSiRdsQEnPd7Ho64NOC;user;09/10/2024 03:18;09/10/2024 03:18
+163;Kristoforus Bertrand Wahyudi;kbertrand@student.ciputra.ac.id;$2y$12$0i6B3DWWekGDil/kDtph2Oh.Ue3uFDYzR6sRlxaL2VglruU19a9Ne;user;09/10/2024 03:19;09/10/2024 03:19
+164;Michael Geraldo Goenawan;mgeraldo@student.ciputra.ac.id;$2y$12$dhH/V5PywU8ICiNXlZKtxuZBZjyFz.KudM5q5O8.45OIOHvhIjvJu;user;09/10/2024 03:23;09/10/2024 03:23
+165;Muhammad Rafif Nizam;mrafifnizam@student.ciputra.ac.id;$2y$12$KLj5ob/j88ptJFHowUOlluICCj.MNkxkgMgBZqx3JQubRpTV7muau;user;09/10/2024 03:24;09/10/2024 03:24
+166;Putri Puji lestari;plestari02@student.ciputra.ac.id;$2y$12$dde0zQ3oqBs5mZtX3CJfCO.mE8JJ/jqwrjqTZMUIL/hjhfox8ZgPi;user;09/10/2024 03:24;09/10/2024 03:24
+167;Raisya muthia putri ramadina;rmuthiaputri@student.ciputra.ac.id;$2y$12$DkIfiCGD34m8pO3nuwVEfu0Jkejm7TvKFyjgSie.G9EiZt0DnqLIi;user;09/10/2024 03:25;09/10/2024 03:25
+168;Ivy Jocelyn Haryanto;ijocelyn@student.ciputra.ac.id;$2y$12$r/sBeOCCHqIVT2ImRzck5.kXwQXsSGmhBGaAijsu7YEn.s2vEo3/2;user;09/10/2024 03:28;09/10/2024 03:28
+169;Gabriella Elizabteh;gelizabeth02@student.ciputra.ac.id;$2y$12$6c/D.Fli9C.OHd3zBSYSVO/zxv8vI2kd4II0G7KPgFtdoDlL/JOqe;user;09/10/2024 03:29;09/10/2024 03:29
+170;Felicia Angelica;fangelica01@student.ciputra.ac.id;$2y$12$1tTP27Ar0DZlFT8jl.U9b.73NRZC13bxi2Pe/0sbmhbWx1FjFtc/6;user;09/10/2024 03:29;09/10/2024 03:29
+171;Margareth Felicia Alice Lie;mfelicia04@student.ciputra.ac.id;$2y$12$GbJB7izoP5fYo9wrUwK9w.MBa8z1FSQ/mgxlSVOpDrGQlaFbQyCdm;user;09/10/2024 03:33;09/10/2024 03:33
+172;Satrio Yanuar Dwi Putranto;syanuardwi@student.ciputra.ac.id;$2y$12$FzWEtnxIJLOtXnuY4nIqUuyBaxKbTX7rk8a3MR3LfKXk9Mplh1pWu;user;09/10/2024 03:33;09/10/2024 03:33
+173;Vanessa Verisca;vverisca@student.ciputra.ac.id;$2y$12$gUM5koZDOzvso2reAccvROUWt1nArsvpFANaMSx4D/AbH68FJH1li;user;09/10/2024 03:36;09/10/2024 03:36
+174;Adryan Muljono;amuljono01@student.ciputra.ac.id;$2y$12$uarRmJDjC3EdohV20ccwmuVv/A8br3fDfML5/I2xNTcc2urdPbBV6;user;09/10/2024 03:36;09/10/2024 03:36
+175;PETRA RAFFERTY MEINHARDT JUSUF;prafferty@student.ciputra.ac.id;$2y$12$6PcxeBJ/FH5sBtIVxA6Kx..SEogumIpXTXqRWBGOi/b96FHq9qPte;user;09/10/2024 03:44;09/10/2024 03:44
+176;Riska Listiyani;rlistiyani@student.ciputra.ac.id;$2y$12$mRkv40MdryhWM7LWFMnPGOXJ3vLt6cv0l.FDNcrVngZh.Fx3tqg.W;user;09/10/2024 03:58;09/10/2024 03:58
+177;Alfonsus Rieki Deo Janitra;ariekideo@student.ciputra.ac.id;$2y$12$htcPEQ53d0shk1cSzftrs.ui6W0io5Tw1kEwtt89P/MTJJE9ra3uq;user;09/10/2024 03:59;09/10/2024 03:59
+178;Beatrice Michelle Valerie W;bmichelle@student.ciputra.ac.id;$2y$12$DkyeJXMpsYJJCIjbDX6F9eIQyp1SIaFyvuGHklwY.hdM3.quVWxJq;user;09/10/2024 04:04;09/10/2024 04:04
+179;Joshia Aurelio;jaurelio@student.ciputra.ac.id;$2y$12$k8Fj5q4HFpW/3u7aFFCyq.dOCf6i9sTN/G6LBBwE6e76JnRrxIbNG;user;09/10/2024 04:12;09/10/2024 04:12
+180;Fenny Suyitno;fsuyitno@student.ciputra.ac.id;$2y$12$AszPzg3D5fb8FNK4Q8knNe1h63UyKDknQlRQB6W9ZeO5Itbna50Ye;user;09/10/2024 04:13;09/10/2024 04:13
+181;Keyzha Mayure Sandrina;ksandrina01@student.ciputra.ac.id;$2y$12$ZJZueTqPyIjK9752M81Rhu2v23CJtSyTOnRafVjbWmLNkpaRRKfG2;user;09/10/2024 04:14;09/10/2024 04:14
+182;Catherine Grace Susanto;csusanto03@student.ciputra.ac.id;$2y$12$YmoaTdJZ8nz2Kc6Wd2l/QOzOujbh5VUM40FFAY4sMZTbo03KfIZJa;user;09/10/2024 04:14;09/10/2024 04:14
+183;Nadya Yasminw;nyasmine@student.ciputra.ac.id;$2y$12$FgyxwHqvsrlPGzW4.EXeCelSWnWijlScSxAA8QT8BsUXlY5ijmppW;user;09/10/2024 04:15;09/10/2024 04:15
+184;Kristanto Budi Setiawan;ksetiawan04@student.ciputra.ac.id;$2y$12$YWe5o9BXf.PmiE1WCseJt..iw.ZDUX8rgs7xzGT47QjkLuolfmVom;user;09/10/2024 04:16;09/10/2024 04:16
+185;Wida ashila busaina;wbusaina@student.ciputra.ac.id;$2y$12$6xjU0BBtKBx.BPd8trtSWO54eAgsIWV5EN5pyPTkXCUPmzvFWEktK;user;09/10/2024 04:16;09/10/2024 04:16
+186;Alvin Wilbertson gunawan;awilbertson@student.ciputra.ac.id;$2y$12$1iAwdG.qaCu.bJy95H77Lee3ngUhdhnW4z9bKpHA7WzFNY39NrDaa;user;09/10/2024 04:16;09/10/2024 04:16
+187;Nicholas Ganda Wijaya;ngandawijaya@student.ciputra.ac.id;$2y$12$a4cvsbspGuYovTMWUwUel..J10jtvQULeXlGKYPVqULfswDWvQJ/e;user;09/10/2024 04:17;09/10/2024 04:17
+188;dprakrisna@student.ciputra.ac.id;dprakrisna@student.ciputra.ac.id;$2y$12$r4SCXvnd07b0pvaMmofmWOyH/xykcJeb/ZIrEMseuqQ.CUrY5rQx6;user;09/10/2024 04:17;09/10/2024 04:17
+189;Belmiro Cyril gunawan;bgunawan04@student.ciputra.ac.id;$2y$12$7v.aOiICtph/RszSdB.3QOZ74Oo2AWb1S.4yXE6PUp0LQl7uHttMO;user;09/10/2024 04:17;09/10/2024 04:17
+190;Gladys Callista;gcallista@student.ciputra.ac.id;$2y$12$F4EvX62SjwAepR7g6mkNTOjqs3chYDI/baJ5VOF/BowXGl3Wce6Oe;user;09/10/2024 04:17;09/10/2024 04:17
+192;Jefferson Budi Tjitrohartoko;jtjitrohartoko@student.ciputra.ac.id;$2y$12$N9A61CmpxJ7bAQ2hMjxjCeJF/xgXizrBvRZIx/16DwNc4/gWIyE8O;user;09/10/2024 04:18;09/10/2024 04:18
+193;Axel fendy wijanto;awijanto@student.ciputra.ac.id;$2y$12$wBS65c0.ZhB1qpriuKw4RO08k0QZh5uVrwslN/0tpfdkA.Zhb3eWq;user;09/10/2024 04:18;09/10/2024 04:18
+194;Jonathan Owen Tantry Senak;jowentantry@student.ciputra.ac.id;$2y$12$RKmZ1i/Lle4fb5aeVT9gTOII0vrR/7/9vS0cAzItKf5dOA4H3vLTS;user;09/10/2024 04:18;09/10/2024 04:18
+195;Noah Keefe Gunandar;ngunandar@student.ciputra.ac.id;$2y$12$cfp7NrnrKruhnmBNyh2GtehQ2pL76CQJDy4Y9OOzlfpZ5MMbjDtBC;user;09/10/2024 04:19;09/10/2024 04:19
+196;Rensy Helena Tanjung;rtanjung@student.ciputra.ac.id;$2y$12$fI5bje07/0oBcye8cPpxCu/QMo2GC9E36FzsEBZJeOOhCjbrs0bOm;user;09/10/2024 04:19;09/10/2024 04:19
+197;Albertus Reynold Immanuel;areynold@student.ciputra.ac.id;$2y$12$iK3F0l1z8shJC2ew7YvaMOJMCN/yVWX6EJiH2zCxD30jx9EBHVjDC;user;09/10/2024 04:19;09/10/2024 04:19
+198;Irfan Hartono Putra;ihartono01@student.ciputra.ac.id;$2y$12$kQTKKEEAuL0XU3FMegbhAuz8BYZERruK8OpEJXVKu2.0Dn1v82qjS;user;09/10/2024 04:20;09/10/2024 04:20
+199;Vincentius William Aprilion Hutting;vwilliam01@student.ciputra.ac.id;$2y$12$LuJ4vnK2dnHzwPF6nP6pie0JrDk/yUf/oHlZx0H3ZvEN1fpaSGs/m;user;09/10/2024 04:20;09/10/2024 04:20
+200;Jonathan Ariel;jagustian@student.ciputra.ac.id;$2y$12$Gsl2paIs.gq.A6qPLTC2fOm4WdmnEEqsuYLyZm1V8DBiuRSqW.OEK;user;09/10/2024 04:21;09/10/2024 04:21
+201;Liong Rachmaddenna Wibowo;lrachmaddenna@student.ciputra.ac.id;$2y$12$toeJhOgc2J/3LGiDFXsFbu8dmywxRXAGpqioAvVcidfuCFvG7LyOC;user;09/10/2024 04:23;09/10/2024 04:23
+202;Videlia;vgraciasalim@student.ciputra.ac.id;$2y$12$BSH6aRsTcuMkHQWxfQRzsu.a5nnzDAIxUjkShXLnEG28.74z8fOZG;user;09/10/2024 04:27;09/10/2024 04:27
+203;Michellyn Devi;michellyndevi01@student.ciputra.ac.id;$2y$12$8mabQoY0gAc8/XEu/4yhfuedwZbzHLTPueBBhEoA8syfA.UJbeLu.;user;09/10/2024 04:28;09/10/2024 04:28
+204;Clara Angela;cangela03@student.ciputra.ac.id;$2y$12$TufsOp2QVFFVI0zxEf8hsOnAgvcwCll31DX/JaSi1kgBweTJ6gtJy;user;09/10/2024 04:28;09/10/2024 04:28
+205;Sally yonata;syonata01@student.ciputra.ac.id;$2y$12$cFvBBTXfOnLlSwk5s24O3uOoMb3lHwi13hhRDe2VXGJV3ywNCPpiu;user;09/10/2024 04:29;09/10/2024 04:29
+206;Felicia Caroline Kristianto;fcaroline@student.ciputra.ac.id;$2y$12$knk8omTHQIB1WHH2qk026.VJjc0gfS4k2q2XVUo3l5oYxvkmBCR1C;user;09/10/2024 04:32;09/10/2024 04:32
+207;Girindra Bagus Pratama;gpratama03@student.ciputra.ac.id;$2y$12$w1aj7Yr//7eGUZPuPznLg.3EVuDLJ9jvsBfyyJaCAWYun0gziZuQe;user;09/10/2024 04:32;09/10/2024 04:32
+208;Trifosa Jesslyn Gracia;tjesslyn@student.ciputra.ac.id;$2y$12$ditTIiABw/5EcJJMHeYMw.8cPGuA8LbOTJSVPXLpN5CkGtpOLhv4y;user;09/10/2024 04:38;09/10/2024 04:38
+209;Raihan Nur Shabrina;rshabrina@student.ciputra.ac.id;$2y$12$knGC5hQTgmrg.L4ADunm1OcHqMs/SB4T7XJslCGI8yH1rl/dAWHU2;user;09/10/2024 04:39;09/10/2024 04:39
+210;James Adrian Suhardiman;jsuhardiman@student.ciputra.ac.id;$2y$12$BXWQ/ZzzBFD4nuKtV7V/t.yA2fDNOjOuQU/QtWmZydpIlA/KBKzMm;user;09/10/2024 04:53;09/10/2024 04:53
+211;William Marcellino Rusli;wmarcellino@student.ciputra.ac.id;$2y$12$SNZkLqZABvomhDC43LiRMevD.pU2GCi7wE11J06hlSf4WeCmbsRAi;user;09/10/2024 04:59;09/10/2024 04:59
+212;Richelle;rjesslyn@student.ciputra.ac.id;$2y$12$2y5BMfU5.GTRq4ZsL4AYBuo4r2KGFcoTU7w26fInpNrjL0/eu5TGG;user;09/10/2024 05:01;09/10/2024 05:01
+213;radella zulfa nazihab;rnazihah@student.ciputra.ac.id;$2y$12$i0YDIR17lNr1eejBZetX0OLMkg.h5d4b2g81ao5wzp/LTcusR4K4S;user;09/10/2024 05:03;09/10/2024 05:03
+214;Clarissa Nathania G . J;cnathania01@student.ciputra.ac.id;$2y$12$vs31a8D6UfU4TJXiq94QY.bQxkK0V162YOMinexJTMN24Xw.SQWfC;user;09/10/2024 05:03;09/10/2024 05:03
+215;Evangeline Yonathan;eyonathan01@student.ciputra.ac.id;$2y$12$ZAbOzMrJcMLbaEU34C1Dzuyvdyt5tZa1XHlJDP/SgJITiPsS9wh4S;user;09/10/2024 05:11;09/10/2024 05:11
+216;Aryasetya Kanaka Dumadi;akanakadumadi@student.ciputra.ac.id;$2y$12$ltyIDHMlj/Hk/l.m/Cxcl.zMda.hmFVGIYfPsU5rDJ6SIcQQwxtii;user;09/10/2024 05:14;09/10/2024 05:14
+217;Angela Maura Dharma;amauradharma@student.ciputra.ac.id;$2y$12$BzPiIQ6bnlkJzIcMz13xiu4.Ym7r16wupP8WbmXZA1RL1h9Q/9Eyi;user;09/10/2024 05:17;09/10/2024 05:17
+218;Kellen Aurelle;kaurelle@student.ciputra.ac.id;$2y$12$mWYVJEB4vVzoMGuDPHXqy.p4Vk8u.5b0GuzEdXiDzh7JVzK8Spjju;user;09/10/2024 05:19;09/10/2024 05:19
+219;Michelle Davis;michelledavis01@student.ciputra.ac.id;$2y$12$ZVkwZjjUlVfu.S0E3MSeju9h0I7YIP3oFDPIyymr1fwVqecoES/qq;user;09/10/2024 05:23;09/10/2024 05:23
+220;Vernando Wose Suharto;vsuharto@student.ac.id;$2y$12$7vVR/WUhfBCJjUqG9UoNZuZ4teArxvbsHdXq2qn46F4A/l1/wHcUe;user;09/10/2024 05:24;09/10/2024 05:24
+221;Bryan Carlie Lukito Setiawan;bcarlielukito@student.ciputra.ac.id;$2y$12$XhQI7jxjt/GhnHUKoCeAjeAfOGrBG8FgfYicFRrNdc4uCvLU29fdK;user;09/10/2024 05:29;09/10/2024 05:29
+222;Jason Christopher;jchristopher08@student.ciputra.ac.id;$2y$12$Peu28ezYMVH3BHAVWARIN.lDFGOqE3ueC9IdBtYrplxJrTMwIrrW6;user;09/10/2024 05:31;09/10/2024 05:31
+223;Anastasya Merry Setiawan;asetiawan10@student.ciputra.ac.id;$2y$12$v8TffdDymIQSRjVkn6XEMOkEihK7/bfNK0T90j6DE7wbqboq/K4ne;user;09/10/2024 05:37;09/10/2024 05:37
+224;Cathlyn Franchesca Tjahyono;cfranchesca@student.ciputra.ac.id;$2y$12$C3BF31.vNhfnxV18jFUqVOHbv3DxJXBQ7feuvLe6JbZS6oW0E0w5G;user;09/10/2024 05:39;09/10/2024 05:39
+225;esther jennie;ewilliam05@student.ciputra.ac.id;$2y$12$FJ2H7NQPHX11Uv4PPQ0yQe0NZ5/5A58syuZRJpYenxEBq4rCd/YPS;user;09/10/2024 05:49;09/10/2024 05:49
+226;Alfred Aurelio;aaurelio@student.ciputra.ac.id;$2y$12$tPnX7lAiTHX6OBvHANqjtuqm0xYa2lJNEaFf/.i1r.P3ulcPH1pvW;user;09/10/2024 05:50;09/10/2024 05:50
+227;Andre Valentino Dermawan;avalentino01@student.ciputra.ac.id;$2y$12$CIBeH2FCPLzprbqKiDPijOXQ3JNePmC/Bo59OmLAlGvp45qs9Z.9q;user;09/10/2024 05:50;09/10/2024 05:50
+228;Kelvin Kuandi;kkuandi01@student.ciputra.ac.id;$2y$12$D8Ni3jpNY3VBWfEMkNTNAu1CNzS.eW2GcaHEZnU4es22FeRNHgtG.;user;09/10/2024 05:52;09/10/2024 05:52
+229;zakiatun nafizah;znafizah@student.ciputra.ac.id;$2y$12$Xhsgbx46jad626aAjBSrdO9qQDmBBbPxoW4Sk6d9dl/cMjFnGUMhG;user;09/10/2024 05:59;09/10/2024 05:59
+230;Neviano Gunardi;ngunardi@student.ciputra.ac.id;$2y$12$A2SPVa5KggAUIeJrDkE.7.p2YV8wAp23jSbkSmKU81IM8TJUTfOaK;user;09/10/2024 06:06;09/10/2024 06:06
+231;Erick Yan Setiawan;esetiawan05@gmail.com;$2y$12$6a0EO.TjvKFr6r97Iu9.VO1KG487u8W5rGT6ZQ7sCkK8x6G31453u;user;09/10/2024 06:06;09/10/2024 06:06
+232;Darren apriyando lim;dapriyando@student.ciputra.ac.id;$2y$12$UMkOXYMDuu.cs3c2CPUjWOG67oPgnxlZl6vCvzAn6//q9oabLqh06;user;09/10/2024 06:08;09/10/2024 06:08
+233;Dennis Cristiano Kurniawan;dkurniawan15@student.ciputra.ac.id;$2y$12$WZiY3fnbrI3QIhdQ0q8zyOpgTO7gVmyDhT1XsGPG3V5Ja22W86HNO;user;09/10/2024 06:08;09/10/2024 06:08
+234;FA'IZIN DWI PANGESTU;fizindwi@student.ciputra.ac.id;$2y$12$C5W6/.7aH1qy7KoL5l/njesz4voJ8ZhLfc0hpcVfknFfsjFHvnHzy;user;09/10/2024 06:09;09/10/2024 06:09
+235;Evan Al-haromain;eharomain@student.ciputra.ac.id;$2y$12$0achEIzyXfLaBrQ8dnF4MOwaE7T8PWDh4J500D5JJZgneS9gVBCcq;user;09/10/2024 06:09;09/10/2024 06:09
+236;M. Abil syaifullah;msyaifullah@student.ac.id;$2y$12$8SapQ/5zitA7rCnIrknRT.r.4MBj26jjhA423Wf8Dfzr/h4QiIHly;user;09/10/2024 06:10;09/10/2024 06:10
+237;Eliezer Jeffrey Gunawan;ejeffrey@student.ciputra.ac.id;$2y$12$rRGot3vDPO5uq8r/Gens/uj5n6BFvYAQVI9bxYqx5WF1uFyw/X4Va;user;09/10/2024 06:10;09/10/2024 06:10
+239;Eddrick Christian Chang;echristian04@student.ciputra.ac.id;$2y$12$EWPk3MnfFWA5eT033Pj3uujORqRczyFQmN5IPSWRNGJvKbi.DYAvS;user;09/10/2024 06:10;09/10/2024 06:10
+240;JODI DAPUKA LAKAPONA;jlakapona@student.ciputra.ac.id;$2y$12$x3gY802vri9V1daEv9NAdewJ6VT8Xr0XSA6EPnn9gMWbsZs95HyGG;user;09/10/2024 06:10;09/10/2024 06:10
+241;William Chandra Dinata;wchandra04@student.ciputra.ac.id;$2y$12$cx102dHD821ZxuoOeyKLl.SbEwOC2jBAiz8PF5Fh1kEp7xG2SkHoK;user;09/10/2024 06:11;09/10/2024 06:11
+242;Abil Syaifullah;msyaifullah@student.ciputra.ac.id;$2y$12$Xo2vdXkHhd3rUwgvsg71gOyawrVIARy8rEgmQ1TEjZgOoJELTIfGK;user;09/10/2024 06:17;09/10/2024 06:17
+243;Danniel Prananda;dprananda@student.ciputra.ac.id;$2y$12$exsWtc5SlQzfIgpmNDuyLOITw.Xf31mHeAvTzL7tBcoEIhDuPIWyS;user;09/10/2024 06:28;09/10/2024 06:28
+244;Shane Lorenzia Evan;slorenzia@student.ciputra.ac.id;$2y$12$EfhJzfhB8wxxcBSXkNCFkuiqOWFcKXcVU4FSGdCqdshpBdlsDW4YC;user;09/10/2024 06:31;09/10/2024 06:31
+245;Elvira Alexandra;ealexandra01@student.ciputra.ac.id;$2y$12$U4Odw23t8GAQmlPGEXDoLufJI4LRx7.x3D2v0qMr..M87EQ/WKrrG;user;09/10/2024 06:31;09/10/2024 06:31
+246;Emma Regina Chandra;echandra05@student.ciputra.ac.id;$2y$12$Ztu0HTJg565QgoIaGkz3E.IAHZ.xZDGMFu23iRqvzA7MJTmFdZXui;user;09/10/2024 06:31;09/10/2024 06:31
+247;Alda Florencia;aflorencia@student.ciputra.ac.id;$2y$12$Z4pT8WzaC2Z58nIfoK3FCOD/0tziMGFS5.cD0u1M7Bn4dLnSP.E8O;user;09/10/2024 06:42;09/10/2024 06:42
+248;Natanael Hoggy Setiawan;nsetiawan03@student.ciputra.ac.id;$2y$12$f/A3N4qS91343kK4dKcUieIad.iSTn9kWx8JnhLLFjZjEyZuUUGsC;user;09/10/2024 06:42;09/10/2024 06:42
+249;Felicia Melvina;fmelvina@student.ciputra.ac.id;$2y$12$O9fP6mSwB.BfTwzXmxG0yeMULeql1Id5KtmjrOlvFEnUVyTwDSeMW;user;09/10/2024 06:42;09/10/2024 06:42
+250;she angelica;sangelica02@gmail.com;$2y$12$/PnZ.zDvOA3kxfATGpqg0OyV4/B991ZhZudVcpJV/gadMKHwq4Eku;user;09/10/2024 06:42;09/10/2024 06:42
+251;Lovena Henang Artalina;lartalina@student.ciputra.ac.id;$2y$12$ptHKFBUn5Zxpe7j9rhisOuCrP4R15BL7jUoU0R1TO1hAdTL7XmBzC;user;09/10/2024 06:42;09/10/2024 06:42
+252;Adhio Kameswara Tejakusuma;akameswara@student.ciputra.ac.id;$2y$12$u7hY9Cd0obF0s8PsgtLoPuFyi1WGfUS7xWLDCiCKk5AvhBw5i/LVG;user;09/10/2024 06:42;09/10/2024 06:42
+254;Auryn;asumango@student.ciputra.ac.id;$2y$12$N6spBTPLv8eKoTeKaVPfFOQdBgmhxKeYGqK7bbeDSvwYOEYbQWMHW;user;09/10/2024 06:42;09/10/2024 06:42
+255;Brainy Veny Victoria Agatha;bvictoria01@student.ciputra.ac.id;$2y$12$8YsxQbbqhw7lSSzxzPN.c.AhjPVt.ezMPvaYGLIpx09lZ1Ebpza7S;user;09/10/2024 06:46;09/10/2024 06:46
+256;Michelle Chelsea Alexandra Setiawan;mchelsea@student.ciputra.ac.id;$2y$12$Yr3hA4MgFt4gFdN8vOH/v.uuDDhBtgAPUVTFGXOCWuJGqatVQOcdm;user;09/10/2024 06:51;09/10/2024 06:51
+257;Rayvin Wijaya;nrayvinwijaya@student.ciputra.ac.id;$2y$12$0HUqJ3KUdRRZxI1N0TjrgeN0ZNnVBZZMyXsHEQzyVn9jj65BuZyQC;user;09/10/2024 07:00;09/10/2024 07:00
+258;Hanania Alya Syahira;hsyahira@student.ciputra.ac.id;$2y$12$hWcDYaSG9773UISSiu03auBfZKrPw8xIgSzfCFG08C3l7ieGr5JAC;user;09/10/2024 07:20;09/10/2024 07:20
+259;Adelia Mawarni;kmawarni@student.ciputra.ac.id;$2y$12$jhy6nlpEHk2K4iq.hbffzuyI2XuNQZl03G4Ev35VnQfjZAYg5Bl5m;user;09/10/2024 07:20;09/10/2024 07:20
+260;melinda ayu yanuarta;myanuarta@student.ciputra.ac.id;$2y$12$yxJEXdVibHx/ouehlf/2qOTpW.o.JBA6I9a91abtVcsiXuO/t3Tky;user;09/10/2024 07:20;09/10/2024 07:20
+261;Heny Kwandoko;hkwandoko@student.ciputra.ac.id;$2y$12$LtaW9FZo54TwS8TqeC6XSuNAetZ0WW4c46OYfPwqLCn1SGGnWnrw.;user;09/10/2024 07:21;09/10/2024 07:21
+262;Julian;djulianto@student.ciputra.ac.id;$2y$12$PTB.kEIHP7LcM2D82h2ZxuN9iPiyK3YS8kprrtXc48hnUO69a77YK;user;09/10/2024 07:21;09/10/2024 07:21
+263;Edeline Cassie Rusdikan;erusdikan@student.ciputra.ac.id;$2y$12$BB4o9xOt2E/wmI6VnykE1.JsMLArHSjkNeiFBjzOZH0NE4SxvpVmO;user;09/10/2024 07:21;09/10/2024 07:21
+264;Jason Tio;jasontio01@student.ciputra.ac.id;$2y$12$jadGheENoZLvPyMioUvmr.mN3TC9Wzq5B.Ehuqso75SWMWjKmMeYe;user;09/10/2024 07:22;09/10/2024 07:22
+265;Keane Juan Suryanto;ksuryanto@student.ciputra.ac.id;$2y$12$Lo/yp9Z5vC74GplQ.GLnyO/.GBn0yBDiV42VueASx9dTrWN8ypULa;user;09/10/2024 07:22;09/10/2024 07:22
+266;Dave Tristian Nurcahyo;dtristian@student.ciputra.ac.id;$2y$12$NAsQmlXg931oQy5sXXn3geadn8w5q11.YICrFQKjW1WTOeSDlnvFS;user;09/10/2024 07:22;09/10/2024 07:22
+267;Obie Zuriel;ozuriel01@student.ciputra.ac.id;$2y$12$F8xw8N.h9OtHsvhIt7Oc0eyujBYaXFTG1jFwfg00Izj2.srBeCGri;user;09/10/2024 07:22;09/10/2024 07:22
+268;Hanzelius;hanzelius01@student.ciputra.ac.id;$2y$12$V1FzAYr4a6el8lYxmMwy4.tH9FX6W9fZOmYLFsr3kAMkqv7SrBXQi;user;09/10/2024 07:23;09/10/2024 07:23
+269;Janet;jellorawibowo@student.ciputra.ac.id;$2y$12$tVONSfa7tIm0p97uWJoIaOAiHIQKKjoeQwdNtE8NB414zD3hH0E0q;user;09/10/2024 07:29;09/10/2024 07:29
+270;Vania Cecilia;vcecilia01@student.ciputra.ac.id;$2y$12$svkaZi/S5317xyzuGdtAUeQ9c7KQw2ZJWpRye/4kr2MFUeNHUi.ym;user;09/10/2024 07:29;09/10/2024 07:29
+271;Helena lilianawati;hlilianawati@student.ciputra.ac.id;$2y$12$5EI7EFqOxiAAxPTWlWaTNeJcqGUgOeqA7AZi/rafFAjuGl9r6nWR.;user;09/10/2024 07:29;09/10/2024 07:29
+272;Angelia Mei Riski Kehi Lau;ameiriski@student.ciputra.ac.id;$2y$12$bLarAAHgknjj2pTL/9pchOFmey3rWEMK..xpYYHGDmJQEUyDVSvWe;user;09/10/2024 07:30;09/10/2024 07:30
+273;Joel Christopher Gerald Tjokrowiharjo;jchristopher06@student.ciputra.ac.id;$2y$12$Usx8mKcO0z7J/1EnTXWM/e8DT9wVKWvuAZuLpb0q3qCj.6e7wimJm;user;09/10/2024 07:32;09/10/2024 07:32
+274;Aurelia Felisha Lukwanto;afelisha@student.ciputra.ac.id;$2y$12$e1xhgRwWUyAXDcKeSP10muoJPXWt8iLoQlIUa4ZOFbSsHJ1GINb9a;user;09/10/2024 07:33;09/10/2024 07:33
+275;Eunike jacquelyn Widarto;ejacquelyn@student.ciputra.ac.id;$2y$12$jbfb0WY96tLhNezqCYu9k.bzIvndRr8YN8zfYQexpMs1XMz/XyxEC;user;09/10/2024 07:34;09/10/2024 07:34
+276;Jennifer Quinn S;jsantoso12@student.ciputra.ac.id;$2y$12$uar2vTmrT0RyVCbKyQQF2ekQqWjc4S.su5Xp6DGUUTz.KQMF1.Qqq;user;09/10/2024 07:35;09/10/2024 07:35
+277;Naysha Sera;nseraphim@student.ciputra.ac.id;$2y$12$gtKxrn4v5zkqjlnNQAiCo.nRuuk/vZREuA1MUEH8yee.fxmEJUrPa;user;09/10/2024 07:35;09/10/2024 07:35
+278;Ruby Arthalia Golden;rarthalia@student.ciputra.uc.ac.id;$2y$12$7nTnA4B0gC/DKpKhujsfi.P9Bu5Bz9K2EZWlJIEzbIvCAEtof79/i;user;09/10/2024 07:38;09/10/2024 07:38
+279;Amanda Renata Go;arenatago@student.ciputra.ac.id;$2y$12$8WeKKgPlVZoU1.wBJlF70OU3htKSUHH6UgZX2cfy/1fj4gW.wacUK;user;09/10/2024 07:39;09/10/2024 07:39
+280;Theo Gunandar;tothniel@student.ciputra.ac.id;$2y$12$LfDy45.O9aArtCtiE75lkeGHlESOCPmM.q8GOHecOlWVIBi4RNhBS;user;09/10/2024 07:40;09/10/2024 07:40
+281;Precious Nathan;pnathan01@student.ciputra.ac.id;$2y$12$tDyCtvCFPHRVQhzSeNjeGuqAJ52JxhsZBH0KYMzVV54dk7R/6CuoS;user;09/10/2024 07:40;09/10/2024 07:40
+282;Roman Perry James Macdonald;rperryjames@student.ciputra.ac.id;$2y$12$SxnnXBh8t7H5KtUkmJ.cNOejM.iwYWUf/gfaskLg7Vwb4fMgtBT8q;user;09/10/2024 07:41;09/10/2024 07:41
+283;Eileen Cynthia Mark;ecynthia01@student.ciputra.ac.id;$2y$12$KnsFH9C25AmJ3s1m9OSEEe8BBLe82eM5R01V1ixZS5E2gZmenwW9i;user;09/10/2024 07:42;09/10/2024 07:42
+284;Michelle Jocelyn;mjocelyn01@student.ciputra.ac.id;$2y$12$uZUnQ0mlMXVTkWix1uxxQepr8/1PKu9kXL7fEriIr8zbpOVlJNGn2;user;09/10/2024 07:55;09/10/2024 07:55
+285;Kenjiro Jeconia;kjeconia@student.ciputra.ac.id;$2y$12$nyF11y06.t744EG1euBVV.zoosheokIFwnExukoaTBBDTrSsSbxyu;user;09/10/2024 07:55;09/10/2024 07:55
+287;Charlene Vania Cahyadi;ccahyadi@student.ciputra.ac.id;$2y$12$LJEb9F9iO0dPOXp53ToRZ.W9qnIXA4fNeRs/oe8VWTJ05qR5cDipa;user;09/10/2024 07:56;09/10/2024 07:56
+288;Kenneth Jonathan Halim;kjonathan08@student.ciputra.ac.id;$2y$12$rkWMLz0XjP1J88xpws0HGeU68EAtmEUfoYHZ5ZyL7zF8VUpbW3qWy;user;09/10/2024 08:28;09/10/2024 08:28
+289;Bryan Fernando Dinata;bfernando@student.ciputra.ac.id;$2y$12$xF5GcODKINsd3KweBinMceahgDo/NseNDQs/EAMMSKF6PrdWYWgdK;user;09/10/2024 08:28;09/10/2024 08:28
+290;Clara Suryani Awengkari;csuryani@student.ciputra.ac.id;$2y$12$UoucOCciRtn1TdL.uv.p6eXU74CiZ6fnbxX4d1ZNugH9J1w2Q10q2;user;09/10/2024 08:28;09/10/2024 08:28
+291;Fennie Natalie Solaiman;fnatalie03@student.ciputra.ac.id;$2y$12$zM1nX1/q.wMkMKqPf8mqwuU5k/8EqBamaJyt0Zh/1OopX9V41//H6;user;09/10/2024 08:29;09/10/2024 08:29
+292;Hafizd Dharma Saputra Hardiono;hsaputra01@student.ciputra.ac.id;$2y$12$5haMgMNKH/xWxooU9Vfw2u98R5/1oOvYYpJNifF9LJPRR616KLTKm;user;09/10/2024 08:29;09/10/2024 08:29
+293;DELLA AULIA;dellaaulia01@student.ciputra.ac.id;$2y$12$QWgzpVMZqGdxpcF4g48KjOEFPBWU6vsyVwkQC.zReucNWKuQgSQdS;user;09/10/2024 08:29;09/10/2024 08:29
+294;William Nelson Candra;wnelsoncandra@student.ciputra.ac.id;$2y$12$9JNp1nyVfZv9.tQNm77pR.d1Lsq7bqv.Kg8PUAQrKiDmwDZiFrKNu;user;09/10/2024 08:30;09/10/2024 08:30
+295;celine vishienny;cvishienny@student.ciputra.ac.id;$2y$12$7DPhnI5ngUaMY1OpwCVU8..iu/Dd2QkvDblR9azrQHJM8Hm6hp7Fy;user;09/10/2024 08:35;09/10/2024 08:35
+296;BERLIN SURYA TUNGGARA;btunggara@student.ciputra.ac.id;$2y$12$QSFO5YdRCh/NZDHM8vn6Zez5Sdf8DrYG8FWVQKzP8Jm6ISMxBN/kO;user;09/10/2024 08:36;09/10/2024 08:36
+297;Nico Pratama Wijaya;npratama03@student.ciputra.ac.id;$2y$12$o1NHVBcCp0/AjgOzeK4HE.UXhPBgNvCikmtErUeifLciMWJnwaX82;user;09/10/2024 08:48;09/10/2024 08:48
+298;Mario Ruby Ariesusandi;mariesusandi@student.ciputra.ac.id;$2y$12$66BhfCBzRzEGof0sXfK9A.3RFEKbRaJf9rZafxRffKP5F9amnL14K;user;09/10/2024 08:48;09/10/2024 08:48
+299;Angelina Alexandra Mayfrila;aalexandra@student.ciputra.ac.id;$2y$12$vznjEhALVGtHDtLlElKoYewMuHGMQNKb7idfclwv579bDERwfggui;user;09/10/2024 09:11;09/10/2024 09:11
+300;Jonatan Deriano Alvin;jderiano@student.ciputra.ac.id;$2y$12$vF8Tu8NwZNqg002v56eewurj6/7zW8Fj6516au.hUQ.RANaMay2f6;user;09/10/2024 09:12;09/10/2024 09:12
+301;Calista Leovani;Cleovani@student.ciputra.ac.id;$2y$12$FBnzwT5qoidyVotKJfd/Nu/y9.FJFTTUmcZSzrAkekErmnhVFb1T.;user;09/10/2024 10:51;09/10/2024 10:51
+302;Wynette Jolenne Ivanne;wjolenne@student.ciputra.ac.id;$2y$12$qyv45AKzyMr.yjeGlD13Xe/BtL07W/9rFyUkCqPiE4V6FeLHV76se;user;09/10/2024 10:56;09/10/2024 10:56
+303;Angeline Hartono;ahartono07@student.ciputra.ac.id;$2y$12$MqkKQMrxPZoTg0yD/ogaFud5G3oE7UkbUnpWjtNBfh79m7.KZWmsu;user;09/10/2024 11:02;09/10/2024 11:02
+304;Jose Alessandro Tanumihardja;jalessandro02@student.ciputra.ac.id;$2y$12$cnz7J4aVDb2AIG9Hs6Od0uhdhc1d4lJo2muefk28OPzciroGZkbr2;user;09/10/2024 11:13;09/10/2024 11:13
+305;Vallerian Davyne Djunarko;vdjunarko@student.ciputra.ac.id;$2y$12$GdU2MiXTopOEmmOjSeLIHOxGp76KinZD5.x6T.mbdZhiw5n.Q.bGG;user;10/10/2024 00:59;10/10/2024 00:59
+306;Fionna Calysta;fcalysta@student.ciputra.ac.id;$2y$12$myRDjpLzZJPXywl0OMxE5OlKIc7K0/L3/8As9c3Wb26bEL/kQ4WcW;user;10/10/2024 01:38;10/10/2024 01:38
+307;Michelle Cathlin Celestyn Yang;mcathlin@student.ciputra.ac.id;$2y$12$5aJbqa7d8LlEZkPKNw8Lfuhwvs9S9u9Hq2vF1uwQd.q3S//gEYAGi;user;10/10/2024 02:17;10/10/2024 02:17
+308;Kenley jonathan;kjonathan07@student.ciputra.ac.id;$2y$12$EJ4BVLkdbZmCeK7bL0msXOXcWaiq2KHKRfVI8tM3Ya5Elxdv6puYu;user;10/10/2024 03:07;10/10/2024 03:07
+309;Stanley Young;stanleyyoung01@student.ciputra.ac.id;$2y$12$aDcCYfsJc6aPgcOfe4OLB.wVzWYreuuHK6owfDk1Ub.EtBZToBjrW;user;10/10/2024 03:07;10/10/2024 03:07
+310;Calvin Laiman;claiman01@student.ciputra.ac.id;$2y$12$jQR888tHFoEy3S4hQggfTOJgkYAP7JCIJOYT4dUjzE.bHxLWan6zO;user;10/10/2024 03:08;10/10/2024 03:08
+311;Goldwin Halim;goldwinhalim01@student.ciputra.ac.id;$2y$12$FejESIWiLrUrb.nhiRBecuk/VPNEZB8JQDr2DxeIQv3cIqh4mMxc.;user;10/10/2024 03:08;10/10/2024 03:08
+312;Jung Yubin;jungyubin01@student.ciputra.ac.id;$2y$12$Kh.BZye1S4ewzgCBwqt4Zucgn0vd17BZCyI6C/nsqx7BQF5.5EexW;user;10/10/2024 03:08;10/10/2024 03:08
+314;Brigitha Gwenneth Theodora;bgwenneth@student.ciputra.ac.id;$2y$12$wHwWHK2dRgCyr7NKqlg8QO/SPRf8C6n7nmuwE8aYau2AH4uWqf6/.;user;10/10/2024 03:10;10/10/2024 03:10
+315;Michael Laurent Karta Rahardja;Mlaurent05@student.ciputra.ac.id;$2y$12$zHTtS.i3dJGPqtHtuA8EheYdUZYULizjyAanBPRRz1G4Tn5B7nVVK;user;10/10/2024 03:15;10/10/2024 03:15
+316;Liem Fernando;lfernando01@student.ciputra.ac.id;$2y$12$HjVxhaJgNUHvqT130HrO8ersW8ZgMWKqp1/S5Mts9D5slE8m76lBi;user;10/10/2024 03:15;10/10/2024 03:15
+317;Gabriela Ivanna Tan Djari;givannatan@student.ciputra.ac.id;$2y$12$EfDCM2E02pTQK/Mv15hM3OEYFSOF5iDZ48KGJWzYKpsjpoWrNpfWW;user;10/10/2024 03:19;10/10/2024 03:19
+318;Erica Numakura;enumakura@student.ciputra.ac.id;$2y$12$nAR47i13NkkKbbHHrwzix.YRCkN0cGsLJXILH0Zl3eAr2BUricEGe;user;10/10/2024 03:19;10/10/2024 03:19
+319;Hani Lestari;hlestari@student.ciputra.ac.id;$2y$12$FA/ZmeZ55V69mX7.0kkObeQ7UowUJo7M0q/YNuTAH/OWTBEywlvMW;user;10/10/2024 03:29;10/10/2024 03:29
+320;Maureen Kelly William;mwilliam@student.ciputra.ac.id;$2y$12$Y5vOLbkA1sg4SVCnyAGXQeVDIj0TtKENQVYbLhrn9OBdSRPDhXIue;user;10/10/2024 03:37;10/10/2024 03:37
+321;Hendrawan Saputro;hsaputro02@student.ciputra.ac.id;$2y$12$RmkeZRssKuU5Ljknk9sP..UEg3JGO.Pb3Kb25oolmEQ2bxr9ZSYQO;user;10/10/2024 03:42;10/10/2024 03:42
+322;Ni Luh Melani Cadoret;nluhmelani@student.ciputra.ac.id;$2y$12$IIr05CiLwXyJfbKA0/Wd1O4IJ39Dh.C7r9YE5fLSQqyySJN9WiXr2;user;10/10/2024 03:48;10/10/2024 03:48
+324;Maulida Arina Manasikana;mmanasikana@student.ciputra.ac.id;$2y$12$yG0w93bHoSakp9rBzTjDx.oqrI81FFfL0nA8K7M/VXT/lQMFAmrQy;user;10/10/2024 03:50;10/10/2024 03:50
+325;Chrystalyn yovela yulianto;Cyulianto@student.ciputra.ac.id;$2y$12$fjEm1KbXqT5lV4uXFvIcEeJzTLl60I9Vn1W/EUZk5uQz4IL497jgK;user;10/10/2024 03:50;10/10/2024 03:50
+326;Queeney Lovely Christian;qchristian@student.ciputra.ac.id;$2y$12$ypvwEimKkMmnz0RR5mB3Ku3mAszsh0on16x2yeOYPukBJPDxNDFxK;user;10/10/2024 03:51;10/10/2024 03:51
+327;Natashia Angelina;nangelina03@student.ciputra.ac.id;$2y$12$eaLBPH3EvXirBd0s8c7MWujktZyZ2y2RHKJG3MAUncRboNE04ALJu;user;10/10/2024 03:51;10/10/2024 03:51
+328;Felix Richardo;frichardo@student.ciputra.ac.id;$2y$12$kwAwPZ1PZrbG2wI7KYEzm.tWyirqITXtKq1prxJnhNp3PotYUsXWO;user;10/10/2024 03:54;10/10/2024 03:54
+329;Jermy Eklesia;jeklesia@student.ciputra.ac.id;$2y$12$TaCDTf9Zas/RxtzZW4WFJuQZd8U77WIjDfhVCQrkbiySaSY0dA6uC;user;10/10/2024 03:55;10/10/2024 03:55
+330;Aaron Hans Adiputra;aadiputra@student.ciputra.uc.id;$2y$12$PappwviS5Ro7sO4vUla/1OuSGc2KVJ4ENoowilHQ/d9pmKVjYUfhy;user;10/10/2024 03:57;10/10/2024 03:57
+331;Nevandio Hera Joevandy;njoevandy@student.ciputra.ac.id;$2y$12$BFGbAJEEebDAUuMwogqGceDTM4yndlxkep22S11zudlClSzctYJgO;user;10/10/2024 03:58;10/10/2024 03:58
+332;Jessica;jessica05@student.ciputra.ac.id;$2y$12$6zRRAnYTP949ynaV0R/k2.CZpZi.uYsTG2c.nXfvdniFSAygEy5Rm;user;10/10/2024 03:58;10/10/2024 03:58
+333;Cello Mazza Yuwa;cmazzayuwa@student.ciputra.ac.id;$2y$12$b2Br9m6f6mwstKJ/q4st4eo/BAeOEOCPzx8cWTttarefEZ60jrQN2;user;10/10/2024 03:59;10/10/2024 03:59
+334;Lyvania Unbanunaek;lunbanunaek@student.ciputra.ac.id;$2y$12$8DtDXdMGCFKkRf7FhUni0./dWdSEtXpJhval0v29u9exT3n0IrLvq;user;10/10/2024 04:00;10/10/2024 04:00
+335;Felicia Agatha;fagatha01@student.ciputra.ac.id;$2y$12$hwB8MLm7koxgsdu4SsAayek/raBtQOcqhcP57Tq91unMRafAD3T6e;user;10/10/2024 04:00;10/10/2024 04:00
+336;Defano Muhammad Zacky;dmuhammad@student.ciputra.ac.id;$2y$12$0U2R7w1b9mOm96bkrj0mAeFOEDm8ASX6EPpxPo0ElIl.ycr/9rhlG;user;10/10/2024 04:00;10/10/2024 04:00
+337;arbay bahihaqi haqieqi;abahihaqi@student.ciputra.ac.id;$2y$12$W8aCgaCTJ4bnbcNJXQJEXeau1pdtdysZbGpBwlPtKRXP9KhqMAEvi;user;10/10/2024 04:01;10/10/2024 04:01
+338;Michelin Grace Cahyono;mcahyono@student.ciputra.ac.id;$2y$12$ivfuWyMWaYh5WqAXjOfs6ex1D4XNUBNDzQHHaqYfb1I0KZFHISmEi;user;10/10/2024 04:01;10/10/2024 04:01
+339;Mohammad Angga Dwi  Saputra;manggadwi@student.ciputra.ac.id;$2y$12$WX4bXsS/ygggNm.ZXHsvPurMTMrUiZXr737JxM/aiL0uXbiGRd0pG;user;10/10/2024 04:03;10/10/2024 04:03
+340;Clarissa Kimberly Fong;ckimberly@student.ciputra.ac.id;$2y$12$IytBN5QbPeMf8PPcUaWC4.AYIN2/RRCpq4okYEpYSXspxSOiicNsC;user;10/10/2024 04:04;10/10/2024 04:04
+341;Cecilia;cecilia03@student.ciputra.ac.id;$2y$12$f.5ootuBClb1U4PW3G8iq.49jX0AIMiP4nksQsyFQuXau6IumV.Ku;user;10/10/2024 04:06;10/10/2024 04:06
+342;Dwinda Audia Irnaonefa;dirnaonefa@student.ciputra.ac.id;$2y$12$Jy5oe7U7KyET3fwEJrmc6ew/xvVCYY7inMhu1rqjn7LOab7vbxzwK;user;10/10/2024 04:07;10/10/2024 04:07
+343;Terence Edmund;tlesmana01@student.ciputra.ac.id;$2y$12$1zc3BEfpwAdvp1hZIVB3Oui.AjdHoCcTMDYb5YeOc1dJKjeAHQGqy;user;10/10/2024 04:08;10/10/2024 04:08
+344;Vanness Aurelius Gunawan;vaurelius03@student.ciputra.ac.id;$2y$12$vq3EV8qgMw2faPPqbwLj9uYZ0uj7.0giEpZ/l2HHvXxascQQN/XYu;user;10/10/2024 04:12;10/10/2024 04:12
+345;Vincent;vincent01@student.ciputra.ac.id;$2y$12$69uUT.Ee2nT4adBpD8OZ2.Mv8Erl1GO7uaGJfZnjAeL91XAVlenrO;user;10/10/2024 04:22;10/10/2024 04:22
+346;Rifki Indra Nugroho;rnugroho@student.ciputra.ac.id;$2y$12$NR2oQonCJRX.FIGgmnt8Ne4zSRWnEItkthFDKxOyb4.JYOrreHP72;user;10/10/2024 04:22;10/10/2024 04:22
+347;Stefany Agustina P;sagustina@student.ciputra.ac.id;$2y$12$sDoGFx8A.0YjbJr9ZitHn.cbmw8Qv7eizpcyddaj.5emGSD.6RAz.;user;10/10/2024 04:43;10/10/2024 04:43
+348;Chalistha Dea;cyuwanda@student.ciputra.ac.id;$2y$12$Qi1iAHbY/ZjsM4j..upDleisu9UVzG3IK5299a75dmf5R3U.Te6kS;user;10/10/2024 04:45;10/10/2024 04:45
+349;felix;fralfael@student.ciputra.ac.id;$2y$12$q5Ulxst8Uw34SpOzLJRl.uChRD29Vm6QUqJTzvgjfeAnqGDFV2Qau;user;10/10/2024 04:45;10/10/2024 04:45
+350;Clarissa Tasya Antonius;cantonius@student.ciputra.ac.id;$2y$12$8nzbA2ri0otBqkZ0.UKIrOPJ/C0/WSHDUwi5dD5r3RQX3ky26RSZO;user;10/10/2024 04:45;10/10/2024 04:45
+351;Cliff Richard;crichard@student.ciputra.ac.id;$2y$12$eTF/MZ788lnBTpzfrTSKTOnd7NFEUXhTUnfkyF9mGdLAw63ZFI68W;user;10/10/2024 04:46;10/10/2024 04:46
+352;Yusuf Satriadi;ysatriadi@student.ciputra.ac.id;$2y$12$8O3IZkAalDla22AhbUeL4eOksiDuF7/wT50luGBqFO1gFBkWjqp3a;user;10/10/2024 04:46;10/10/2024 04:46
+353;Wilson Boedyono Subagio;wboedyono@student.ciputra.ac.id;$2y$12$ER19KpwfuRHcWo0rYlzujOmUeD8ccabskurQWBl1ePRoZcFFx8bR2;user;10/10/2024 04:46;10/10/2024 04:46
+354;Jennifer Charmeline Widjaja;jcharmeline@student.ciputra.ac.id;$2y$12$/z937zBh8AwaRma8AVCh7O/jOoEuhjrf2xtsiZOPAzP68FtplvSMu;user;10/10/2024 04:46;10/10/2024 04:46
+355;Miracle Jaqueline Rongkang;mjaqueline@student.ciputra.ac.id;$2y$12$O1R3xv.0U89S3tBkHJjI2uvY3ksAH7XJCYUdthoeKvM4/EdM7Uqea;user;10/10/2024 04:46;10/10/2024 04:46
+356;Michaella Febrianto;mfebrianto@student.ciputra.ac.id;$2y$12$vlYk82omJMZVLbypnwRj.ObAAaivMfJInJAjkWX0tvuXJ8wnhu9t6;user;10/10/2024 04:50;10/10/2024 04:50
+357;Bianca zefanya gunawan;bzefanya@student.ciputra.ac.id;$2y$12$bKWltd/mncgaYQmRhUVpp.ggW5arAeNZAad.Z69CjDFpurtWAR4ju;user;10/10/2024 04:52;10/10/2024 04:52
+358;Nicholas Chang;nicholaschang01@student.ciputra.ac.id;$2y$12$p1Y4AmjohXCEFJ.r0xSfgemzTK4.UumM4H03qyZHUijq4umwUzDr6;user;10/10/2024 04:53;10/10/2024 04:53
+359;Gabriela Fabiola;gfabiola@student.ac.uc.id;$2y$12$4M69feH.Ig/08rJLohS14OiBzDiOvgIRtmkudoPcICqxrlDvd1ANm;user;10/10/2024 04:53;10/10/2024 04:53
+360;Rachel;rdeianeira@student.ciputra.ac.id;$2y$12$jTmYj/pWsXc3FfGV0Ua1IeIvOp2C2shnTOodeF.UGCDiqN3eQKsT6;user;10/10/2024 04:54;10/10/2024 04:54
+361;Justin Andrew Nathaniel;jnathaniel02@student.ciputra.ac.id;$2y$12$cyW0rADPIQSSbMlvMs0yq.JFnHY.z5xPzO/UQgWPXxUOvM8jcsK2e;user;10/10/2024 04:54;10/10/2024 04:54
+362;Viviana Wijaya;vwijaya12@student.ciputra.ac.id;$2y$12$JCLckEdgsSwEKWwtMKLGpewBoTIvSeyohp8GxuHVM6hABmVM05w9G;user;10/10/2024 04:54;10/10/2024 04:54
+363;Andrew Jong;andrewjong01@student.ciputra.ac.id;$2y$12$6BClowcly3yRx4TuNKa6geudMBDdksufDv/VltrOfswofu001SmGe;user;10/10/2024 04:55;10/10/2024 04:55
+364;Edward Orlando Tedja;eorlando@student.ciputra.ac.id;$2y$12$H.GRebEQup0L8SFVIfsxselYHnHpXG7u888fModkCz3iJHj.0GiNa;user;10/10/2024 04:56;10/10/2024 04:56
+365;Jessica Elizabeth;jelizabeth01@student.ciputra.ac.id;$2y$12$26jXfZvDJI2XBturx.3G1ezT/hi5QTuEv4kSinlJ7xGGjfBgZx77.;user;10/10/2024 04:56;10/10/2024 04:56
+366;David Christianto Gunawan;dchristianto02@student.ciputra.ac.id;$2y$12$5sLNc8UvH6BEDeV3FdsCGur8I5rAyVbMW8SISnO8Hu8DTrDwa7t6i;user;10/10/2024 04:56;10/10/2024 04:56
+367;Phebe Liana Widjaja;pwidjaja@student.ciputra.ac.id;$2y$12$PwNNljAebRK/6meEmiaMD.cdCn9xebLPod98aluXIt7h6roDCEzY.;user;10/10/2024 04:57;10/10/2024 04:57
+368;Tiffany Sanjaya;tsanjaya@student.ciputra.ac.id;$2y$12$p8dEyvhp5Yle/OlsaKQu5eOP1RWl8UueKHyGJvLm4xWqN3ntsl4re;user;10/10/2024 04:58;10/10/2024 04:58
+369;Maximilianus Kevin Dylan Deliano;mkevindylan@student.ciputra.ac.id;$2y$12$bM97eoS.NJ.OKfXZg9N/RuvTb5kF/gjG7QdyXyePRaNWdddLeD7Li;user;10/10/2024 04:59;10/10/2024 04:59
+370;Tania Sidharta Hariyadi;tsidharta01@student.ciputra.ac.id;$2y$12$b17JtkmfKRpKEtddyMoOFuu05Hl3QywO49MAcdJGG5/xGfY7BVhlO;user;10/10/2024 05:00;10/10/2024 05:00
+371;Amellia Agnes Gunawan;agunawan21@student.ciputra.ac.id;$2y$12$frHZ6YMvhWITJGzMuykl8.OpQG0LXEEHL8MVvs5JKO2aoy83Y62Ua;user;10/10/2024 05:01;10/10/2024 05:01
+372;Misela Natasya Johanes;mnatasya01@student.ciputra.ac.id;$2y$12$B52/oQi4U/rDOMSs0LLtoOH1Hv1IrDFOsm7ivHjawFuoYmkoruXNu;user;10/10/2024 05:02;10/10/2024 05:02
+373;Stiffanie Benedicta Tandiono;sbenedicta@student.ciputra.ac.id;$2y$12$ak3160bK.KfTJaN7.m2NJ.7HgJBBYm9EHwqMYZBP5oPpEKtokQHQq;user;10/10/2024 05:04;10/10/2024 05:04
+374;Michael wong;michaelwong01@student.ciputra.ac.id;$2y$12$9iDPYyKQjDMvnixzxYwi/eYxPWd2fCHR.554QXA3kyUEO1usgz2XS;user;10/10/2024 05:05;10/10/2024 05:05
+375;Ivander Adi Jaya;iadijaya@student.ciputra.ac.id;$2y$12$zTJsgnC/yQTUdQhC0W4ucOQw1QN9okEb3ssp6f1sSmRX5gec1fpwO;user;10/10/2024 05:05;10/10/2024 05:05
+376;Philipo Boediono;pboediono@student.ciputra.ac.id;$2y$12$XEXPe91r4BR10PrJnkUV..k2pRbWAjfBnViFcVfptpzaIrcmx5Zn2;user;10/10/2024 05:08;10/10/2024 05:08
+377;Natasha Gwendelyne;ngwendelyne@student.ciputra.ac.id;$2y$12$Sc05/3BI6/zrFd6LLuKU3ufAEofkdeXHhOeazy0K.q3cF6KqvRwKC;user;10/10/2024 05:12;10/10/2024 05:12
+378;unna;cjavalove@student.ciputra.ac.id;$2y$12$QBxXKxVU8rmmRRJj76kRf./heQ8KyprTtpxycKJB7bFwERJyePbPe;user;10/10/2024 05:16;10/10/2024 05:16
+379;Clairine Cardin Tobing;ccardintobing@student.ciputra.ac.id;$2y$12$ndg5JNeZ6kj.ciDcJY9eZ.ntMP2810mdf92gbnlEasqElwfIJvDEW;user;10/10/2024 05:17;10/10/2024 05:17
+380;Nicholas Stanley Susanto;nstanley03@student.cioutra.ac.id;$2y$12$2ZFRnoHGiROCciys0fKDDO3HGcPyuLU.uG.r00bZuot6SyNINR8aC;user;10/10/2024 05:18;10/10/2024 05:18
+381;putu kezia angela artha;pkeziaangela@student.ciputra.ac.id;$2y$12$To6M1mVTkyDEjFkFeYICROZUIZ7I.Yv6EsSQbJ15HP2WcWPRD/aGa;user;10/10/2024 05:19;10/10/2024 05:19
+382;Jennifer Christabella;jchristabella@student.ciputra.ac.id;$2y$12$8T/Glh5XnYJ2B7/54KLZAO8Kijru.4wzFiQlqu3Iu9Eqi/orzJute;user;10/10/2024 05:20;10/10/2024 05:20
+383;Annaya Richi;annayarichi01@student.ciputra.ac.id;$2y$12$/vwNRlWZsaQkUAkbOGfNmOrLlYEAWkfSbfHjqx6VJTNVGyR7mzBY6;user;10/10/2024 05:20;10/10/2024 05:20
+384;hansel alexander susanto;halexander@student.ciputra.ac.id;$2y$12$xRlpffemBDSMBFbqBHvRxukEuBcE88ueqcEZduOdxvf8VCOWIugLy;user;10/10/2024 05:21;10/10/2024 05:21
+385;Petra Cleopatra;pcleopatra@student.ciputra.ac.id;$2y$12$TC6kMwv0BbTAkHnN90VhAu28O2VcXIpFTSHg12kqLhGhKAEG4UOGS;user;10/10/2024 05:24;10/10/2024 05:24
+386;Jessica Roselyn;jroselyn@student.ciputra.ac.id;$2y$12$PKwUn9Fy/Cj8XtMeLxbk6.8ny9kA41F4fXi3KLQvtZsKTJciEMAmC;user;10/10/2024 05:28;10/10/2024 05:28
+387;Caroline Octavia Yolino;coctavia02@student.ciputra.ac.id;$2y$12$EWy8HsKr6L2dfpsigYPSK.2qzfzjGS4KCW2lj3jZu89JZCeYfVbUa;user;10/10/2024 05:41;10/10/2024 05:41
+388;Marlon Sebastian;msebastian06@student.ic.id;$2y$12$PcaDhMN96lpJUuJMmX7NuOGHOzSZlya8ETYOjGKa9Viialcy8Vm9.;user;10/10/2024 05:41;10/10/2024 05:41
+389;M Fikri Alfiansyah;malfiansyah@student.ciputra.ac.id;$2y$12$AfbCjE9RYKL/DceNZjnlauD0ld8lesbYYIV6oyOpYwCXY.d1fQn.O;user;10/10/2024 05:42;10/10/2024 05:42
+390;Yoga Novarendra;ynovarendra@student.ciputra.ac.id11;$2y$12$zrkjKPLd/qPE8LaC0DuVBOKLb4mcianpp59/leR7lO3mjI0Kpo1Jm;user;10/10/2024 05:43;10/10/2024 05:43
+391;Audriana Clarissa;aclarissa05@student.ciputra.ac.id;$2y$12$4C0lPyci6D2dpUOkjc4S6OaqsxJ8oDFlQv5LVB.QV8/5z.d77QHPq;user;10/10/2024 05:49;10/10/2024 05:49
+392;Gusti Agung Istri Krisna Kirana Kepakisan;gagungistri@student.ciputra.ac.id;$2y$12$yWkVt2IxeIFqIXFKCr56XeJcDiU2pYryyTQbe1UketCSpeprFqUoO;user;10/10/2024 05:49;10/10/2024 05:49
+393;Gracesia Austin Octavia;goctavia@student.ciputra.ac.id;$2y$12$K8j9VxkPKG2D1bXZ.pb90OXMCznYq9bPIJ57X2GBrVtJsW8srgZ.O;user;10/10/2024 05:52;10/10/2024 05:52
+394;Chamisha Blanche Louis Likorawung;cblanche@student.ciputra.ac.id;$2y$12$jHk.2As0HlFW1q13GuUdb.mcNyrMb4E/M8jsgwkDZFyOU2Mgc83pm;user;10/10/2024 05:53;10/10/2024 05:53
+395;Chikita Bilqhistiantono Putri Ramadhani;chxxthq@gmail.com;$2y$12$6XAz41B7QCaU.J1qGKE/XeSKV5m3PBoJSmhE7B.rSK/tpWw6fyiRa;user;10/10/2024 05:54;10/10/2024 05:54
+396;Felix Rheza Suhartono;fsuhartono@student.ciputra.ac.id;$2y$12$kD4Jc9LOtF5HxQDYdyrBNuFtOcN17bGmAqyjzqNWoJbb.ZboeETcS;user;10/10/2024 06:06;10/10/2024 06:06
+397;Hans Rachman;hrachman@student.ciputra.ac.id;$2y$12$IwSbUNmKNloel/2GLXtY6.JeRukjzdHxVc7eW7F3wLlS5c9MMtyi6;user;10/10/2024 06:07;10/10/2024 06:07
+398;lutfiya safitri;lsafitri@student.ciputra.ac.id;$2y$12$c68xYtwQm.zmcwXMYmO7ZuHdbMkGJFyTsMlKddmPyL6DQH6itpuh.;user;10/10/2024 06:21;10/10/2024 06:21
+399;Veronica tansen;vtansen01@student.ciputra.ac.id;$2y$12$bqpPdAWWA/FbCJWmjWbgbe8.z/bFcsDh.pVh2oKkepoV4FgE4ZgN2;user;10/10/2024 06:21;10/10/2024 06:21
+400;Bernessa Audris Widjaja;bwidjaja@student.ciputra.ac.id;$2y$12$YmgKJdD334bOV6ShJ/Dyi.fTZSLgqqkTSFCx64AEeDX/VSt7VA4.W;user;10/10/2024 06:33;10/10/2024 06:33
+401;Tiffany Cecilia Haliman;tceclilia01@student.ciputra.ac.id;$2y$12$ub64W4UoE9UZBqA678BsF.R5gJx9rCFx.2U6GV9CUeG3a0Hi5Npti;user;10/10/2024 06:45;10/10/2024 06:45
+402;Aurelia Nesha;aurelianesha01@student.ciputra.ac.id;$2y$12$nF0586DCeqC9RGx6opcOLu895vlKrG2.4/uLdPLF01SzE90QmBxoi;user;10/10/2024 06:46;10/10/2024 06:46
+403;Josephine Sutandio;jletitia@student.ciputra.ac.id;$2y$12$epdmWEalnzKXJ3HJSLGIv.vw4mHaf58PknmRRCqvfMamfDreYc7FO;user;10/10/2024 06:46;10/10/2024 06:46
+404;Epifanni Purnomo;epurnomo01@student.ciputra.ac.id;$2y$12$cNBU.OmppS2Rniob122ZEu3ScRsIALMZlbGcCra2JkLiZAotS0ebq;user;10/10/2024 06:46;10/10/2024 06:46
+405;Chirzah Ghina Ennafsi;cennafsi@student.ciputra.ac.id;$2y$12$0sTUIf9x65Um7PFLRsu7uetn2AXeQCvYP8OT3Tqje4qtyzE03luCa;user;10/10/2024 06:46;10/10/2024 06:46
+406;Jocelyn Ann Tjandra;jtjandra03@student.ciputra.ac.id;$2y$12$JLsauUNNFVbjg8ELDyZPFurJhooICfb3tq2CYW5VAkqij0liZc4Bq;user;10/10/2024 06:46;10/10/2024 06:46
+407;Abraham enrico junior;aenricojunior@student.ciputra.ac.id;$2y$12$jKBP6jD74FInFK63LumDbu2quujjertqFABOfiEFa01rMdH8JOXXK;user;10/10/2024 06:49;10/10/2024 06:49
+408;Agnessa Meira Sitepu;ameirasitepu@student.ciputra.ac.id;$2y$12$J19DSenmOc/mXchp5l3FiOUn7c.q9axl8WM8oyFCKOip.8YeqYqoG;user;10/10/2024 06:49;10/10/2024 06:49
+409;Wiwit Rahmawati Purwanto;wrahmawati@student.ciputra.ac.id;$2y$12$M2e4MJSWm3jPzBr3Pdaznup/HBKHQf3ebA5Knu.dTlWTTyasxmXdu;user;10/10/2024 06:49;10/10/2024 06:49
+410;Timothy Nathaniel;tnathaniel@student.ac.id;$2y$12$fupaiuZil0TvpVtIeMlAvezlMlw02Eo8t61KarNykFQQR6aXeB.Zi;user;10/10/2024 06:50;10/10/2024 06:50
+411;Charles Patrick;cpatrick@student.ciputra.ac.id;$2y$12$lEmtEJANV.EBebfggUFUIubWJGUB3GT/2zr2xhH7IOHM/c2GnLwpe;user;10/10/2024 06:50;10/10/2024 06:50
+412;Carissa Aderlina Eklesia Chan;caderlina@student.ciputra.ac.id;$2y$12$WZUgLcyeW9D3atW56WZ5luw6am3xjq84jERg.teXawroDJCxs6F/K;user;10/10/2024 06:50;10/10/2024 06:50
+413;Kevin Redithya Ferrando;mredithya@student.uc.ac.id;$2y$12$JDFBLEby/m1SKilH8164d.RwKRpM.vaC.pKAEYeI/pDkf7QBT2hiO;user;10/10/2024 06:50;10/10/2024 06:50
+414;Clara Wiriani Santoso;cwiriani@student.ciputra.ac.id;$2y$12$WGVowLr6ZbMeg/dPDd.T0ONiR6rBqEgeGAt2eCgdWG/fJ9F2YTT.y;user;10/10/2024 06:50;10/10/2024 06:50
+415;tan, jennifer febri hermawan;tjennifer01@student.ciputra.ac.id;$2y$12$jX5Wy/xZSBN.mz2VM/TfXO6Xf0VmUPEYUHUXxkQRuPZdNZdWe/Kwy;user;10/10/2024 06:50;10/10/2024 06:50
+416;Salma Nafiisha;snafiisha@student.ciputra.ac.id;$2y$12$0Hs5IUIV6iV0i2AJrqeg1u69mxxHGceRiyU6yR9KEFTTT0szmif4G;user;10/10/2024 06:51;10/10/2024 06:51
+417;Stefany Xanthia;sxanthia@student.ciputra.ac.id;$2y$12$LxRs9.FwF9uf6yP.irCsgOtG9ks1Ufs0e7Xu9SA0lOkgMwcn8BLpi;user;10/10/2024 06:51;10/10/2024 06:51
+418;Constantina jeaneve;cjeaneve@student.ciputra.ac.id;$2y$12$SN83wlqMOV0CFn6DrPff9.z35xBj0DxLqnd1GN7WqljF/8jCmrIMe;user;10/10/2024 06:51;10/10/2024 06:51
+419;I Nyoman Chandra Guna Putra;ichandra03@student.ciputra.ac.id;$2y$12$MzlUM9taTVkEm5qkXrbAA..uWIBRXD6Rwyy5nAWPxtiI7Xc7YyP4q;user;10/10/2024 06:52;10/10/2024 06:52
+421;Kelvin Setiajie;ksetiajie@student.ciputra.ac.id;$2y$12$tsHmHXlz7qFtOVodk1dc8.GrtWGUsxxHW5SIf04mQ76LOabgT.iC2;user;10/10/2024 06:52;10/10/2024 06:52
+422;Jeanna Theodora Averill Kristy;jtheodora@student.ac.id;$2y$12$cb0e/PDr223fqveesXrfCOvCp10o67Vkpa6iCIuYdnk3kBmTVlq.y;user;10/10/2024 06:53;10/10/2024 06:53
+423;M Kevin Redithya Ferrando;mredithya@student.ciputra.ac.id;$2y$12$RJpN.6FU9e2bmokkg8LSueCrTf8ujrL46vdMIz8auCVEgLFFXYMOu;user;10/10/2024 06:56;10/10/2024 06:56
+424;Muhammad Adrian Putra Dewa;madrianputra@student.ciputra.ac.id;$2y$12$vdvzQYOHDdejeG0mBWtj.O1PDmtCinWhIET8GC0P/RtEemts3aWcK;user;10/10/2024 06:58;10/10/2024 06:58
+425;Jocelyn ann;jtjandra03@ciputra.student.ac.id;$2y$12$QOtvdPhRz4Aa8raI8Dtp6Odg3HHcBdrUzuGmnYfReiYCr5vwowC/6;user;10/10/2024 07:01;10/10/2024 07:01
+426;Euginia Crisiella;ecrisiella@student.ciputra.ac.id;$2y$12$KR0BOi2DFsIBalpVX1aNgOPxde1NRWsQJnPLnuPVvtrXsnSrlFJYC;user;10/10/2024 07:03;10/10/2024 07:03
+427;Lusyannie Evangeline;leg00001@student.ciputra.ac.id;$2y$12$uOBWlDmszWY/9OZtjJ3qdeuTKR5HEz4GFBnkZzmiLdexcjZzM/mJe;user;10/10/2024 07:04;10/10/2024 07:04
+428;Cleo;cedgina01@student.ciputra.ac.id;$2y$12$ptYztl1pcmH9PmN2C0yPcuoi9ZKri3YC17d1HrUhnwftKDTeoX1tS;user;10/10/2024 07:09;10/10/2024 07:09
+429;Vivin Cornelia Lindsey;vcornelia@student.ciputra.ac.id;$2y$12$hNlRX4ZbuxS9IICTb7jlDeb9ehA9kyTWAfiUQV/JEYz7vyqyh104y;user;10/10/2024 07:18;10/10/2024 07:18
+430;rey;rsyafiyah@student.ciputra.ac.id;$2y$12$1Yl6Gk.hfmG.2gOp/2LI9eKbNBWbMzgUzIpMFJsud/cbWvSPX94x6;user;10/10/2024 07:27;10/10/2024 07:27
+431;stienya;sfebysafira@student.ciputra.ac.id;$2y$12$sly3AQ8DNEe/o0zHFT2q4eYeD2MW1QvmafOwKf8OWbDARd07xza9u;user;10/10/2024 07:27;10/10/2024 07:27
+432;Keisha Aygi;kkusumah@student.ciputra.ac.id;$2y$12$7zeiNQ6gbc2N.7VhgSyJeudCTObIxVHHf2fTXKX3.wSDdkP1TC5eK;user;10/10/2024 07:27;10/10/2024 07:27
+433;Junior Lionel Sesar;jlionelsesar@student.ciputra.ac.id;$2y$12$jEr/hr5/KaV.zERakPpVf.ml6S5CgXl8JkV5TvmggV2iF.rb4GpOO;user;10/10/2024 07:31;10/10/2024 07:31
+434;Aurelia;aurelia.diastari@ciputra.ac.id;$2y$12$Q7jvloYUZVVLXxpxbTQ5weLZ6nNqQdZ.I7wbD/97UIGnu57hhHaQ2;user;10/10/2024 07:33;10/10/2024 07:33
+435;Mahatma Elok Nurani;meloknurani@student.ciputra.ac.id;$2y$12$XUZiX16EHGcZe0hi8L40NOyGRm4Di0QPyTPTmvwuZJmtTa5t7YDRS;user;10/10/2024 07:33;10/10/2024 07:33
+436;Kinanthi;kinanthi.reina@ciputra.ac.id;$2y$12$i0Alw4lPnG8Y9/j0iKTBOORCXF5wTu2zrf9ZG0wLo1U.xyCMR1q8.;user;10/10/2024 07:33;10/10/2024 07:33
+437;Maria katarina;maria.katarina@ciputra.ac.id;$2y$12$IcknaXe/sVYCHe05PBzoweU/xJVWz3QaCVtPfYWXNCythtpU1rTPu;user;10/10/2024 07:34;10/10/2024 07:34
+438;Paula dinar;paula.dinar@ciputra.ac.id;$2y$12$gT3DamJlScfWqNzMX.0vtuaQCANuAeVKvbM/dt1MSpchui8X9Ozy2;user;10/10/2024 07:35;10/10/2024 07:35
+439;andrew crisna subandi;asubandi@student.ciputra.ac.id;$2y$12$gijsA6HM1GK8dbWiZhjVqu/tYkHFkIyaWnWk1LkQdBfeFElwKbo9.;user;10/10/2024 07:38;10/10/2024 07:38
+440;Jeremy Orlando Hartono;jorlando@student.ciputra.ac.id;$2y$12$KbodVFcKAqMHevB3w2BREO9qWDP1Y1vrnJcbJK0tKCiYWPc4FN0Fi;user;10/10/2024 07:42;10/10/2024 07:42
+441;Rondi Syahputra;rsyahputra02@student.ciputra.ac.id;$2y$12$9J0KBFi0bphm2HEcxXAlEOOuvSe3pXbpO1WpHZGTAXQLcu3Dn05.i;user;10/10/2024 07:42;10/10/2024 07:42
+442;Christian Cello Rusli;ccellorusli@student.ciputra.ac.id;$2y$12$XVeD5GalOjaP2oQEyJnFYeJY0V0UHJ6k49wSf4Ox15afjliacnhI2;user;10/10/2024 07:42;10/10/2024 07:42
+443;owen gabriel lakimen;ogabriel@student.ciputra.ac.id;$2y$12$ffNXrhd8863SsCG4oMWDFuqXqwpIjPIQ7BNEVT5xj2NSOc6OU5Vkm;user;10/10/2024 07:45;10/10/2024 07:45
+444;Jehny Olivia;jolivia02@student.ciputra.ac.id;$2y$12$o7OBlxrtgK22DO8pBhtrYOQFUzYu8RKw3PBtzu62PMOapODMglP36;user;10/10/2024 08:10;10/10/2024 08:10
+445;Esther Freya;eangelica02@student.ciputra.ac.id;$2y$12$NxODG0oitnuF26UOYaViZOMzFW79v01E5z8.Jzq4UvbL5HE8eoikq;user;10/10/2024 08:18;10/10/2024 08:18
+446;Jacklyn;jwongsodiredjo@student.ciputra.ac.id;$2y$12$1qdYEl065tf12OhtMBMiZeUdBA/.6FpxIr8dp5CZDTeh0JZGETQQ2;user;10/10/2024 08:19;10/10/2024 08:19
+447;Putu Ayu Kanaya Chanda Maheswari;payukanaya@student.ciputra.ac.id;$2y$12$J6Z4LDwpiLGi8N9onPI/uuQMvO08gRPSHSUkOpjdvGcNVccN5WVzu;user;10/10/2024 08:24;10/10/2024 08:24
+448;Gabriella Gracelia Liem;ggracelia@student.cipura.ac.id;$2y$12$JT2SWAGmImjKYtSvMybJqeVaFG37BblN7PoUk0lSm/mygzKEDlwc2;user;10/10/2024 08:27;10/10/2024 08:27
+449;Sarah Putri Amalia;sputriamalia@student.ciputra.ac.id;$2y$12$NUtp9kvZuV13ZQQftRapv.ofuJxkq72C5VTxxZAw5yZBNVoeiioS2;user;10/10/2024 08:43;10/10/2024 08:43
+450;Xavier Perez Siem;xperezsiem@student.ciputra.ac.id;$2y$12$HGLDb2QOyDo/f9HZUrhKQOUYnujwrX9LLZWcGZYT5tOC0kAkTUgM6;user;10/10/2024 08:44;10/10/2024 08:44
+451;Dewi Elysia Kongtesa;dkongtesa@student.ciputra.ac.id;$2y$12$u23DxXfJQ3M1ngBIbEN/ouLwd7.JvvCHCurgWPW.gUf6Blh5Vek7S;user;10/10/2024 08:47;10/10/2024 08:47
+452;Sharon Octavia Yang;soctavia01@student.ciputra.ac.id;$2y$12$XlL4FY7Uq8SEO5hqaKW7UOMLjFc0pMAAef.uuBM0YDOvF4ehyDCZa;user;10/10/2024 09:02;10/10/2024 09:02
+453;Cathleen Wang;cathleenwang01@student.ciputra.ac.id;$2y$12$/V9IIwRxvCKOs96Wa3Cvh.4gkWkEuhNey9k1BiEg99Z4N2uwWW3Jy;user;10/10/2024 09:09;10/10/2024 09:09
+454;Kathleen Clarissa Gunawan;kclarissa02@student.ciputra.ac.id;$2y$12$Cg7sSCdldvfuEsnLl2s1DOyvSmE/iFaNUasBBm2DLoUTsomyRINPu;user;10/10/2024 09:33;10/10/2024 09:33
+455;Naldi Ledo;naldiledo01@student.ciputra.ac.id;$2y$12$SoeWloob.4295FcEh35TN.TKWM9Yz2C7bt5Te53BXtMmN9drpmFby;user;10/10/2024 09:37;10/10/2024 09:37
+456;Anne Tantan;atantan01@student.ciputra.ac.id;$2y$12$wpqDKujuQY5g3epibAXIeON/sTC43EyPcQZ72p.CGbgKMP6rqgOsq;user;10/10/2024 12:31;10/10/2024 12:31
+457;jacqlyn chen;jacqlynchen01@student.ciputra.uc.id;$2y$12$NX2VRxsQkJ4LYrRwMmkQEeHUJbQIUMgDORedEU8Ugw4ewKcVzvxcq;user;10/10/2024 13:48;10/10/2024 13:48
+458;Silacarini Citta Tionusa;stionusa@student.ciputra.ac.id;$2y$12$a.tSpJIAxW6gyZ0SG7f1UOu/A9PhMAWyMsxxANxLeBs7pUip5LI/6;user;10/10/2024 14:02;10/10/2024 14:02
+459;Kimberly Sudarso;ksudarso@student.ciputra.ac.id;$2y$12$LhPJwZGR0vkdsLMVyvLE8.L9tCn66cieZVukp2OGOSkOn/8TjFsry;user;11/10/2024 02:05;11/10/2024 02:05
+460;Sherlyta;sangeline02@student.ciputra.ac.id;$2y$12$YP9Reoruo56CvElsC6Njke/Ocd/z.dqD/KeiBblHisxNyG7p4SO4S;user;11/10/2024 02:05;11/10/2024 02:05
+461;Vania Wijaya;vwijaya08@student.ciputra.ac.id;$2y$12$vTYSjbRqI2g0HyZ7G2pgcOeiF/Cl1376P7rqvbeZBaBQXvThHnbLW;user;11/10/2024 02:05;11/10/2024 02:05
+462;Putu Diahloka Mahaputri;pdiahloka@student.ciputra.ac.id;$2y$12$bPpXOasORCwit.4wQVh8SuppHwqRt8486.HAnx7a.LCYFmmkDvoHa;user;11/10/2024 02:07;11/10/2024 02:07
+463;Aristo Heinrich;aheinrich@student.ciputra.ac.id;$2y$12$2ZpYrPyy/NAVVfrIZEivz.40bF6BxXWE9UP0iFuTf2uQP5zsnxPuC;user;11/10/2024 02:07;11/10/2024 02:07
+464;Venita Yoshe;venitayoshe01@student.ciputra.ac.id;$2y$12$cILd86XduDVcGLf82P2.ceylRgxaG2/eSuYZesW0GM8sfnl9XNt1.;user;11/10/2024 02:07;11/10/2024 02:07
+465;steven hosea santoso;ssantoso03@student.ciputra.ac.id;$2y$12$xXybwnGuONvuFclocXrXjO9aF0gYpl8vCajGhwv3dKIaxYYfzfK2a;user;11/10/2024 02:07;11/10/2024 02:07
+466;Cecilia Agusta Leo;cagustaleo@student.ciputra.ac.id;$2y$12$OKLw.IGQqGjsK5/Wn5HKquhbHmrDwM6NeziL/baWa3wK.Ldbxk3i.;user;11/10/2024 02:08;11/10/2024 02:08
+467;Grace Olivia Wijaya;goliviawijaya@student.ciputra.ac.id;$2y$12$qV0.mpamdKz3zpXwie41setCMmvDjRWoNW1wazlPd8WrHhLfSwceG;user;11/10/2024 02:08;11/10/2024 02:08
+468;Ethan Cannavaro Lauda;ecannavaro@gmail.com;$2y$12$CxtPIcQlEjFPNUp0UqwMEeU8fe8NA5enphq9wMfKF.WQp.XcQ6Teu;user;11/10/2024 02:08;11/10/2024 02:08
+469;Louis Anthony Salim;louisanthonysalim@gmail.com;$2y$12$9pCogLQmt.RCKN3YC4MCj.n8QYbYl80IENue3EjO6jQMS7k1YAvPi;user;11/10/2024 02:08;11/10/2024 02:08
+470;Audrey Megantari Hondo;amegantari@student.ciputra.ac.id;$2y$12$D//0vN5l4.LVeIsdk5oP0eHhpw/J2Yx/uZN.Rny3ZJjow19YQGJg2;user;11/10/2024 02:08;11/10/2024 02:08
+471;Esra Melani Sitorus;esitorus@student.ciputra.ac.id;$2y$12$/b2pwaL.hf1O2sTBpunmrOqHIWMnP2WIT3gVI/vHxleK1a3srZxZS;user;11/10/2024 02:08;11/10/2024 02:08
+472;Jessica Caroline;jcaroline05@student.ciputra.ac.id;$2y$12$xJp3i2XUjl7ILckhifp9uO0dgY45HuZFJGeUtHLYqhWpcsjwOPOoS;user;11/10/2024 02:08;11/10/2024 02:08
+473;Kevin Febrian Setiadi;kfebrian01@student.ciputra.ac.id;$2y$12$G37tU2anxpl.Xs8yHZfUNOXNYgGQHkHkdkuh36rWAZd3AIf7hzj16;user;11/10/2024 02:09;11/10/2024 02:09
+474;regita terianti;rterianti@student.ciputra.ac.id;$2y$12$46i48TmPqDPOwoXf6BJ8ue0KLEN2LSyzuhlnP0iE0mpRvmNSmqg62;user;11/10/2024 02:09;11/10/2024 02:09
+475;Neysa Alvia Windita;nwindita@student.ciputra.ac.id;$2y$12$nx5thyRFf.3bgTYTCsHML.93wyxXM6JVwR7vH6aKHn.4aJI5AstIa;user;11/10/2024 02:09;11/10/2024 02:09
+476;Jocelyn Jolie;jocelynjolie01@student.ciputra.ac.id;$2y$12$CY1kVEGuhWSbinQ8SUAJo.ypAUxWyudcV5j5sLMHYPUvatGIoDnjO;user;11/10/2024 02:10;11/10/2024 02:10
+478;hans;hans@gmail.com;$2y$12$IK.GZAuIX2qAd75Jf.FvyeNqVRGKs2WpfMAdY7siKIxyJDWPGiP.u;user;11/10/2024 02:25;11/10/2024 02:25
+479;Louisa Octavia;loctavia@student.ciputra.ac.id;$2y$12$HcDUGmE7evSFBz3cDi15MO6HYqE2t48izQ3wYDhyX9MV8Y/5BDUfa;user;11/10/2024 02:27;11/10/2024 02:27
+480;gizelle cyrilla suwandi;gcyrilla@student.ciputra.ac.id;$2y$12$QXIlCuuf8MMHZJTrafmCVe71yjI5irVX5dn4sUaHGpUTsL8dqj1h6;user;11/10/2024 02:48;11/10/2024 02:48
+481;Dana Ivanka Theodora;dtheodora@student.ciputra.ac.id;$2y$12$js.se89y9ul45kG59Ktb9uJnq/WfU9ERViP4ZulMepcyedHeTiJni;user;11/10/2024 02:49;11/10/2024 02:49
+482;Jonathan Pansamotan Harianja;Jpansamotan@student.ciputra.ac.com;$2y$12$ztx4Sry1q5RFaLsD2fG1huVvn3X7J2wIlS/pvUY7XMfQ3MUAQ5psa;user;11/10/2024 02:49;11/10/2024 02:49
+483;Gracia chelsea;gchelsea@student.ciputra.ac.id;$2y$12$Ikyn8qMdNO4FLPnmI3vQMO1Rg0RGt7bj4AqlmrdbZCIVdpbTd4UCq;user;11/10/2024 02:50;11/10/2024 02:50
+484;Florentcia Aurora;faurora01@student.ciputra.ac.id;$2y$12$kT0M/Xiv.icHT4E508x/WeeImvSYiKJK8KDthP9jit0oFazOayPTy;user;11/10/2024 02:58;11/10/2024 02:58
+485;Kyoko Berlin Ho;kberlinho@student.ciputra.ac.id;$2y$12$RQNHyjDvn9/AsWMEmN5wpebHccSEcZnzerJqwwgGi61VmjlamV7ma;user;11/10/2024 03:26;11/10/2024 03:26
+486;Jonathan Justin Risrianto;jrisrianto@student.ciputra.ac.id;$2y$12$szxRSVdG6rL7/ZXAxBGfAuehaPhEZJ0Rp0mSmxJp1JMWA5.cahSqq;user;11/10/2024 03:27;11/10/2024 03:27
+487;Michael Henry Hartono;mhartono08@student.ciputra.ac.id;$2y$12$pCj/9wgE/cExuIlnAoFeYuLaaOsROBfJZgfhIOUBGqdNHU/E4Ejcu;user;11/10/2024 03:28;11/10/2024 03:28
+488;Matthew Iyawan;miyawan01@student.ciputra.ac.id;$2y$12$E9/juzmu6LcwYUxzSjV0xeSI8sNbhq9x4LJLfO2GJOYwBZVaHwINO;user;11/10/2024 03:28;11/10/2024 03:28
+489;Vanessa Nathania William;vnathania03@student.ciputra.ac.id;$2y$12$qCQrxfncOWb9/Y98ipTyuesy0wKx/Y05nHdeonsQErzjImFNj7Vxm;user;11/10/2024 03:29;11/10/2024 03:29
+490;Wilbert William Wijaya;wwilliam@student.ciputra.ac.id;$2y$12$ItwpIT4eKQ74JtAOyfB8euS9yJC9.BgCOpT8KnY2yNNWz/U3Bcwg.;user;11/10/2024 03:30;11/10/2024 03:30
+491;Josia Sutjiadi;jsutjiadi@student.ciputra.ac.id;$2y$12$560O.lMCWyHepCRhOzU8geP67UEC9w8dqghV/VDrHu2jxxx7JhH9S;user;11/10/2024 03:30;11/10/2024 03:30
+492;matthew darryl chandra;mchandra08@student.ciputra.ac.id;$2y$12$9DeZVJ5GVP71w8MGRZJmiONaFPBugDrQHLXrfKM8oEiPV8Cuwizyy;user;11/10/2024 03:34;11/10/2024 03:34
+493;Faye carissa;fcarissa@student.ciputra.ac.id;$2y$12$a5t4WySDCwy0AkEhIUkuke7t9ICZxKMtIMkStLEQ0j1AbGwGxtUC2;user;11/10/2024 03:48;11/10/2024 03:48
+494;Michelle Tirtobisono;mtirtobisono@student.ciputra.ac.id;$2y$12$aMkMsV4ZRXEiMHlxFUyNqekJ.D1ahDfrlgES0q5jEkTrQ4tWFAgo.;user;11/10/2024 03:49;11/10/2024 03:49
+495;Jennifer Tantadiputra;jtantadiputra@student.ciputra.ac.id;$2y$12$gh8UB.yN7Hp9Zww3gdyaJeDBISeFSFZUh/uiLht.RDo.H1X5a5oYq;user;11/10/2024 03:51;11/10/2024 03:51
+496;Ni Putu Bella Adhisti;Nputubella01@student.ciputra.ac.id;$2y$12$2IdiiTA.H36y.Io2nHoB8uAxR8B2nZtXLMU50/4Rk4bONfXUw8cIm;user;11/10/2024 03:52;11/10/2024 03:52
+497;Noel Krissianto;ikrissianto@student.ciputra.ac.id;$2y$12$I.7RmXtL9b93kACRnBe8wO6Ovo1dsTiwbhfb2Mrc1fLF.yMua7sNO;user;11/10/2024 03:54;11/10/2024 03:54
+498;Airis Utomo;airisutomo01@student.ciputra.ac.id;$2y$12$T0conh6kOcSnfpE26qgUauBwj4HcjvWVmHXxYH/EP2JC8JFBR.79y;user;11/10/2024 03:54;11/10/2024 03:54
+499;Angeline liliana tjeng;aliliana@student.ciputra.ac.id;$2y$12$Fc6oxnApWaGgxqsONns6i.rQx.Wmt4GOGxtZe8KD0mhXBDXKw96eW;user;11/10/2024 03:55;11/10/2024 03:55
+500;Nicholle Stacey;nstacey01@student.ciputra.ac.id;$2y$12$RI7CKrjE0xSOqo6CgxQ/EuMUGy5zBYfoF2TWOtHqw5UbPAN2jcJSy;user;11/10/2024 03:57;11/10/2024 03:57
+501;Marcella Anastasia Geraldin;manastasia03@student.ciputra.ac.id;$2y$12$B1Q/WCjpmOg1B0RJ/KH7tuctnqGpkEuEggFDPjpgbNX4YPXcLQtWe;user;11/10/2024 03:57;11/10/2024 03:57
+502;Vanessa Caroline Wibowo;vcaroline01@student.ciputra.ac.id;$2y$12$af5zxwWSvJieBwAL5TGFwe8XnwsUeBEeUc2xXKfbMoQcTxvLjOu9a;user;11/10/2024 03:58;11/10/2024 03:58
+503;Beatrice Nathania Chandra;bnathania02@student.ciputra.ac.id;$2y$12$U.iTeiOH0WHFmNZyNGPrr.31k4AduKWOY5suQCD4r/SGSoRnkp29q;user;11/10/2024 03:58;11/10/2024 03:58
+504;Regina Caeli Irawan;rcaeliirawan@student.ciputra.ac.id;$2y$12$eUvO209Bt/.PHCKAY4Y/4.bMvDA/YG0M0FeY9dXTprcBkLPV9MGtC;user;11/10/2024 03:59;11/10/2024 03:59
+505;Sitti Shabrina;sshabrina@student.ciputra.ac.ud;$2y$12$vw8NppPCeaHdojSL/zqqz.w27N7RFN6LnqYA5lP4Ahaqgz4BHPrNi;user;11/10/2024 04:01;11/10/2024 04:01
+506;Nurliza Sylvana Febrianti;nsylvana@student.ciputra.ac.id;$2y$12$fkqPRrhfEp7fXZaMYZkSDuiWcr8GxqiC5tNOiPehA7IkcTkQweZn.;user;11/10/2024 04:01;11/10/2024 04:01
+507;Tioviona Enjang Maharani;tmaharani02@student.ciputra.ac.id;$2y$12$PBEzTTlnmgrfxdgTXAErSuy8eyCnIZY9RG6Ma8OmlcYfkz1Ls4I6O;user;11/10/2024 04:01;11/10/2024 04:01
+508;Matthew Jefferson B;mjefferson01@student.ciputra.ac.id;$2y$12$V2XeRjfA1KhoVusqcIXtsOk43TwwsMXT80LQ57LVOQi2osrCH4QAW;user;11/10/2024 04:02;11/10/2024 04:02
+509;Natasha Evelyn Harsono;nharsono01@student.ciputra.ac.id;$2y$12$cbb9mdnqcOsByvAxyFsG6O8/Qj8fwsCoBw7hbv3/YcwPWSpK/hR3S;user;11/10/2024 04:04;11/10/2024 04:04
+510;Charlenne Nathalie Isaac;cnathalie01@student.ciputra.ac.id;$2y$12$5mVQwF5BpXgrKJw8wdSFJe88pfAV.Vhycz2rfMUFmZNoNCEeHWd7C;user;11/10/2024 04:09;11/10/2024 04:09
+511;Rani Tri Hapsari Ismail Singga;rhapsari@student.ciputra.ac.id;$2y$12$cPs2jHmaUPJdisgqpTH4Y./m2TnydLJbMXH80dlLccpXPJ9Iet4F2;user;11/10/2024 04:10;11/10/2024 04:10
+512;Jeremy Amando;jamando02@student.ciputra.ac.id;$2y$12$kW2YCUHX/6JcEFmzCWl8i.Ox.vpgo1aSprcXDTwOAmTSpjjjynSmi;user;11/10/2024 04:17;11/10/2024 04:17
+513;Alvin Fortunasius Gunawan;afortunasius@student.ciputra.ac.id;$2y$12$DbowyoZHNZOODXDOo7TJhOIMZdkNgS/eNmnjMYtCgPTbS9Swei9qW;user;11/10/2024 04:20;11/10/2024 04:20
+514;Najmul Laila;najmullaila01@student.ciputra.ac.id;$2y$12$xi7MjBja4NScBYo3wfMhMO4HfYwDhH8pl3GVUdzPZ6zxxiMyCgBSu;user;11/10/2024 04:34;11/10/2024 04:34
+515;Alka Berlinta Mulyana;aberlinta@student.ciputra.ac.id;$2y$12$6/d8fTFmw0sml0E.YYWbZ.KyXNwWKU/.cKOFRNw6WMrESinLDqp5O;user;11/10/2024 04:35;11/10/2024 04:35
+516;Gracia Ella Puspita;gpuspita@student.ciputra.ac.id;$2y$12$WacPdJHuf1y7q.d9.HlnkOPwMqXgLFbheiTe/c3Z9qNIvARQDBlMG;user;11/10/2024 04:35;11/10/2024 04:35
+517;Tiffany Devina;tdevina01@student.ciputra.ac.id;$2y$12$sqjcPrrOnCMs/tI/sIyk5Oa0fCZ/DbXjvHvgg/hoNI1iOr/fafHJm;user;11/10/2024 04:39;11/10/2024 04:39
+518;Nabita Nirla Sevina;nnirlasevina@student.ciputra.ac.id;$2y$12$j4UKBo1N.g8a3nTxaLwjm.VPKS4VUvosh1xOB0MFpPk9DKo/i65VC;user;11/10/2024 04:41;11/10/2024 04:41
+519;Salwa Salsabila;ssalsabila04@student.ciputra.ac.id;$2y$12$sW5RafTqOmxxlJm.qwBd.uzksqHUO70iMKtJrVceH.M7afEAci4uG;user;11/10/2024 04:43;11/10/2024 04:43
+520;Beatrice prasetya;Bprasetya@student.ciputra.ac.id;$2y$12$xijqYY1vC6BiNYVYnRryx.s//lYGQig2M1/cePRftaRLKxgs5tskC;user;11/10/2024 04:44;11/10/2024 04:44
+521;Cindy Stephany Lohita;cstephany@student.ciputra.ac.id;$2y$12$.Loq5U9AGDuBV1qVHaGW5edNdRKufW1pR8Cy0poc6C1s5mIXarPj2;user;11/10/2024 04:44;11/10/2024 04:44
+522;Beatrice Natasha Soesanto;bnatasha@student.ciputra.ac.id;$2y$12$GHuGXh/1IWVMm7enxMcoc.w3VHD8Gl2AADbb8jzFvsT9t7k9I0uvi;user;11/10/2024 04:45;11/10/2024 04:45
+523;Stefanie Harijono;sharijono@student.ciputra.ac.id;$2y$12$5Z1OaQFmq.JQ07VWYrE5KO02UxAD33N3601If5cq4HkYhpnePA.hu;user;11/10/2024 04:45;11/10/2024 04:45
+524;Venus Valerie Wijaya;Vvalerie02@student.ciputra.ac.id;$2y$12$Ys90ZPJBbi6fWSIy52DniuFGNmebX2vY6tXhkV7TKhuGS9mXH8mLW;user;11/10/2024 04:45;11/10/2024 04:45
+525;Thania Wijaya;twijaya02@student.ciputra.ac.id;$2y$12$FZurtpN6eygdN6oZjyHOeOMwcagQ7CbzGE/nyYVm0kFCn86BwWgZy;user;11/10/2024 04:45;11/10/2024 04:45
+526;Livia Nadia Calista Kreswanto;lcalista@student.ciputra.ac.id;$2y$12$aCwtdOobiUjkV8cuasCiGOePG8OlcDPKDiZuroqhPDfhuMP6ZlCUi;user;11/10/2024 04:45;11/10/2024 04:45
+527;Farah fitriani;ffitriani@student.ciputra.ac.id;$2y$12$TGUlTJ4jpyTHck/z/aWVC.bCt9xxTBx9dVKzYHqXFbK.tnWoIDmdu;user;11/10/2024 04:46;11/10/2024 04:46
+528;Celine Lee Setiawan;csetiawan02@student.ciputra.ac.id;$2y$12$WJ4h.P5o6UeCAUU87uEFI.U3IA80l8ymfnY2QnU.k73DiDjt9W0t2;user;11/10/2024 04:51;11/10/2024 04:51
+529;Chelsea Joycelin Tantoro;cjoycelin@student.ciputra.ac.id;$2y$12$T7Tte3S/swQvs1mTv1lY2esOafwvHLbECga0xAUd6LIBzyimFr7o.;user;11/10/2024 04:55;11/10/2024 04:55
+530;Arsy Bayyina Ghosah;abayyina@student.ciputra.ac.id;$2y$12$BIFmcF2bKdzd8OBSXz05uubw39ExuHiJ6ahCRKWxGZlA4Kbqw0/bC;user;11/10/2024 04:57;11/10/2024 04:57
+531;Dhevin Tandiono;dtandiono@student.ciputra.ac.id;$2y$12$K4oPhW0fGmQ6MVe13ZaLfOzhNEQ1rXqCCt.R9mncPonzEt9QEYI3G;user;11/10/2024 05:06;11/10/2024 05:06
+532;Devi Ramadhani;dramadhani04@student.ciputra.ac.id;$2y$12$7wKy0DlDcMm7Bo5LG8O9tO9aPbXPPx1ILT9ZLV4HoxLUuJx2vbCqC;user;11/10/2024 05:06;11/10/2024 05:06
+533;marchelin vega;marchelinvega01@student.ciputra.ac.id;$2y$12$//cfI0A99xPkfdStdnT4julFENiyhb06EdrPiuDLn5dSCSqBMNWb2;user;11/10/2024 05:15;11/10/2024 05:15
+534;Pieter Susanto;jsusanto04@student.ciputra.ac.id;$2y$12$FiOXmxxi4KWwKBfHJWIpAevrgC8/8hj9PCRdZ4vvySgxUhx3nvieK;user;11/10/2024 05:15;11/10/2024 05:15
+535;Queen Allysha Stelson;qallysha@student.ciputra.ac.id;$2y$12$qEpUadJZabFdODJngR.gN.NIp1ZiQz4l3f1yTBYycpdQtRnrvf8tW;user;11/10/2024 05:20;11/10/2024 05:20
+536;Delicia;distanto@student.ciputra.ac.id;$2y$12$S3Brtta9ByRJ01R4uhvASukU98GznwvfA6h/h2QEcrp.UKwoNiFs.;user;11/10/2024 05:24;11/10/2024 05:24
+537;Estefania Rainie Wiharto;ewiharto@student.ciputra.ac.id;$2y$12$gPMPu0X/yWzLUPqXnFcsvOpGwUiP/5srMy.lYYfcUp61EdnLvrU0q;user;11/10/2024 05:25;11/10/2024 05:25
+538;Regina;Rangelin@student.ciputra.uc.id;$2y$12$lV/kLu5/zwXjNTTAEBraqeXJssQJo2bQzQjnF8cFSkrsnLtP7pe.K;user;11/10/2024 05:30;11/10/2024 05:30
+539;Ratu Azzahra Cahyadi;razzahra01@student.ciputra.ac.id;$2y$12$soKEGwOwwyucofHx5Cj59.w8/g.57XSA4QWhfbnY.sJkoSIx6WZhO;user;11/10/2024 05:35;11/10/2024 05:35
+540;Veysha Delia Izdihar;vizdihar@student.ciputra.ac.id;$2y$12$L.IESqGTTTYMFzWybWJdIOOfFN9IxEEHPhsCUoUl9pHCKfrPmTY2S;user;11/10/2024 05:35;11/10/2024 05:35
+541;KEISHA ALLODYA WAHYUDI;kallodya@student.ciputra.ac.id;$2y$12$vR6GuOx7VkfpIMnbJITZaOnpk2QoTbfMcrti6GHzlull6yBGc1Yz6;user;11/10/2024 05:44;11/10/2024 05:44
+542;Putu winda megadhani;pmegadhani@student.ciputra.ac.id;$2y$12$BfwfdG9je/aYWz8m8kUzY.iLDfyG9wtbdTZj33WthnM5/sLpS9kAu;user;11/10/2024 05:44;11/10/2024 05:44
+543;Claudia Lomi;cmariaprifa@student.ciputra.ac.id;$2y$12$ToBFXCnZC0Cran.i/5Zv0.pWw5TwxLR2w4hz0l.wBig75OBO7.Kwm;user;11/10/2024 05:46;11/10/2024 05:46
+545;Dylan Alverino;dalverino@student.ciputra.ac.id;$2y$12$0diUR7zXCl8wRbvz8x52bO7gVEofvtC65n55JTOV9OpcCJTRUtwam;user;11/10/2024 05:50;11/10/2024 05:50
+546;Nicolas christian lesmono;nchristian04@student.ciputra.ac.id;$2y$12$xaT5oFc0x7QUTbvvx19ZFeTO2KZK/gWcz54o4.CtykZ6mdprLF38u;user;11/10/2024 05:50;11/10/2024 05:50
+547;Felix Lemuel Nicanor;fnicanor@student.ciputra.ac.id;$2y$12$Ai2/KAx1EqU.9CDK1SGawOIxVGFGr3KHnvA.Tn28y/06x7TXKURP6;user;11/10/2024 05:50;11/10/2024 05:50
+548;Desak Made Feby Damayanti;dmadeleby@student.ciputra.ac.id;$2y$12$YMFJFkGJPqYw7h4UGSDEnOpsVRqZY/lLfGD07AMoZ2cEFPPXS09fW;user;11/10/2024 05:56;11/10/2024 05:56
+549;Wennie Cyntia;wcyntia01@student.ciputra.ac.id;$2y$12$S4c649LcgpBq4DnE.2vjLuXvrQbYkoIlb6RbhAelQkP2B89FU9pY2;user;11/10/2024 05:56;11/10/2024 05:56
+550;Ayumi Angelina Putri Prasetyo;aangelina03@student.ciputra.ac.id;$2y$12$nVspHOpXuxOYifAnmIZHROOkhUPoM0Rdpu6Hvkc6gQq1OWvR2uUgq;user;11/10/2024 06:02;11/10/2024 06:02
+551;patricia alberta;palberta@student.ciputra.ac.id;$2y$12$jLhqt.V4tLRz8RaDq7vwl.JmpdLwuKfeJNoKEM1k9qtTmvIc4EFw.;user;11/10/2024 06:02;11/10/2024 06:02
+552;Jeanette Magdalene;jmagdalene@student.uc.ac.id;$2y$12$oKOX5Bi4ceY3rvaUEhk2COyCF0NXGLbxx.i6KuaiFbfsoxABylOqa;user;11/10/2024 06:02;11/10/2024 06:02
+553;Ham Sylvia Cindy Hartono;hsylviacindy@student.ciputra.ac.id;$2y$12$7cPXZcoxJIYlFxP4T8pTjOa9nG10CsyeiqcT/Dn05LD50kOeIbj4q;user;11/10/2024 06:03;11/10/2024 06:03
+554;Jovanca Patricia;jpatricia@student.ciputra.ac.id;$2y$12$vwacZS5N4irqJfyUNe4eT.j2TLMYdM8ceINAwmaD6I4Sz86GoZGqi;user;11/10/2024 06:15;11/10/2024 06:15
+555;Maria Michelle Angelina Susanto;mmichelle@student.ciputra.ac.id;$2y$12$DEt6fmdzPEOcB89l7J6xHefH0EZ9jI2Sxh3JJZ1rc1FXrKzjosKfy;user;11/10/2024 06:16;11/10/2024 06:16
+556;Irsa Azzahra Salsabila;iazzahra@student.ciputra.ac.id;$2y$12$Dsgavq7C8Ak6ISkZ3xqOtOA6dqoeLKmKptD7Fy3HCNH3clhRT/5Vq;user;11/10/2024 06:38;11/10/2024 06:38
+557;Iffah Ulin Nuha;iulinnuha@student.ciputra.ac.id;$2y$12$tSODvrKGQ6AfJQ3TqmlODOU1iaJg79CKw/k7BvYumoL9irDtxj7h2;user;11/10/2024 06:39;11/10/2024 06:39
+558;Henry Johansah;hjohansah@student.ciputra.ac.id;$2y$12$7vWXUhrgUixsxXUIftHNveFbsaTzStvPQKJjFwOcfeh2iiQsyzIIu;user;11/10/2024 06:53;11/10/2024 06:53
+559;Rafi Nawfal Pasha;rnawfalpasha@ciputra.student.ac.id;$2y$12$MgBHd5Ge5U4yJId99FzkMe89M538E3RoN4GXLz3.mbuwO/zRR38PC;user;11/10/2024 07:06;11/10/2024 07:06
+560;Lysia Vaniel Kwan;lvanielkwan@student.ciputra.ac.id;$2y$12$DVsDMwolIevW3CS478GCM.zE0LCCXLZ.7PGMzlZJa8QJ8bSiQLx9q;user;11/10/2024 07:24;11/10/2024 07:24
+561;amania fatimah;afatimah@student.ciputra.ac.id;$2y$12$I3HJS3sooBh1iCA.CG1JKe9gTk0Ldmg..GwSXtxPmcXWeCum8T2XK;user;11/10/2024 08:30;11/10/2024 08:30
+562;yifa elfrina;yelfrina@student.ciputra.ac.id;$2y$12$5h6kRODz/SCZw66kDX6GQOgwiP0wYqMB4RyoUTeRNUJXA/Kkrg/bO;user;11/10/2024 08:30;11/10/2024 08:30
+563;Glaudia nurkhasanah;gnurkhasana@gmail.com;$2y$12$Z.jlQ1ziVEYejiRxiHYj7.Dz7jHK/sISfCiKp2VSbkSHPMpS7AJIa;user;11/10/2024 08:30;11/10/2024 08:30
+564;Muhammad rafi imaddudin akbar;mimaddudin@student.ciputra.ac.id;$2y$12$L.ppHUSdXBFKy7KDn49Q7uTIwH7E0Rytust7K/NKNKNUM8H.MdmmK;user;11/10/2024 08:31;11/10/2024 08:31
+565;Glennishia vitalina Thiono;gvitalina@student.ciputra.ac.id;$2y$12$rzKSP5LQ6qsTQP7ZMAAkyuxEUPerOuFHrcM8Rdat3vXDtrfVVdHD6;user;11/10/2024 08:31;11/10/2024 08:31
+566;reyhan azfaruddin;razfaruddin@student.ciputra.ac.id;$2y$12$1LuwYPMyLyR1Bgh.8yrDz./Ga6nQ7bxVuirAk3B1QOHEzEOcak/3C;user;11/10/2024 08:31;11/10/2024 08:31
+567;Satria Deva Putra Basuki;sdevaputra@student.ciputra.ac.id;$2y$12$5RdfaeLX785gD49evtDUreUla4sgiDbLRE8IAmdLebcxGqH86qQW2;user;11/10/2024 08:32;11/10/2024 08:32
+568;Tandito Putra Pandu Wibawa;tputrapandu@student.ciputra.ac.id;$2y$12$w4MJBW2LSLdp1wypAzdjjOsCr/ddK1et8gIfXMooS78lgstOyKF/2;user;11/10/2024 08:45;11/10/2024 08:45
+569;Charlize Tiffany Witono;ctiffany@student.ciputra.ac.id;$2y$12$7mFabq3xXw9bxIUhauOGN.j7aSsNTI6UKixa1tmtrbyY/GsLD5KAm;user;11/10/2024 10:48;11/10/2024 10:48
+570;Tiffany Christabel Anggriawan;tchristabel@student.ciputra.ac.id;$2y$12$F4FqwnRK7MZ2d3W39pg3B.50IX9tWNeG1OGcGsCtzfW3sK6yqF2vO;user;11/10/2024 11:54;11/10/2024 11:54
+571;Anastasia Aurelia Khosasih;aaurelia02@student.ciputra.ac.id;$2y$12$ZG.rNXZW.kGsOE9GI06BlOECgTy29JNVF04cXwPFhV6nMly0p7rU6;user;12/10/2024 04:08;12/10/2024 04:08
+572;Joan Nathania Toreh;jnathania05@student.ciputra.ac.id;$2y$12$lFHdoNIrerWSoaX3t4kzNuFLEWmtJ1c/Z2IZ819noYNtek6gTZQ/K;user;12/10/2024 17:41;12/10/2024 17:41
