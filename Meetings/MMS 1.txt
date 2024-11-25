@@ -15,20 +15,13 @@ PSDKU -> Makassar
 
 Tuan rumah, teknologi tepat guna, peserta pameran karya seni
 
-target:
-- scholarship dari PMB harus bisa di classify (discuss ke MNA)
-- Tarik data student clubs
-- "duplicate" cis UKM for student clubs (within prodi)
-- buat monthly report untuk UKM (until MMS kelar)
-- request tambahan cis untuk submission external beasiswa
-
-Job Desc:
-- B03 = Welfare
-- B06 =  Kompetisi
-- B07a = Organisasi
-- B07b = Welfare
-- B09 = Organisasi & Welfare
-- B10 = HOD
+Job Desc MMS:
+- B03 = Welfare (Internal & External Scholarships)
+- B06 =  Kompetisi & Organisasi (Student Achievement and Non-Competition Student Recognition)
+- B07a = Organisasi (Number of Student Clubs and Community Participants)
+- B07b = Welfare (Soft Skill Growth)
+- B09 = Organisasi & Welfare (MMS Credit Point)
+- B10 = HOD (MMS Pelanggaran)
 
 Priority:
 - CIS Predikat
@@ -37,3 +30,10 @@ Priority:
 - CIS Event
 - CIS Pelanggaran
 - CIS Student Leadership + CIS KRS-UKM
+
+
+Hasil Meeting 11-11-24:
+- Di table, prodi memakai prodi dosen pembimbing
+- Since the MMS will be used to centralize data acquisition for divisions, discuss what each division needs for the data to have in order to effectively finalize the table designs, graphical displays, etc. for the MMS
+
+(IMPROVE WORKFLOW)
